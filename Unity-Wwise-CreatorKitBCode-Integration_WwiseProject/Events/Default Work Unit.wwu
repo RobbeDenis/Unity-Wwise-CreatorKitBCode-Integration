@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_London_Hit" ID="{5FBE4DA6-3EB3-4F10-A3BC-2915AC630C33}">
+					<ChildrenList>
+						<Action Name="" ID="{BC4FBE77-96A2-4814-AF12-F34D005CEEC3}" ShortID="1036499041">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="London Hit" ID="{6D56357D-C628-4422-A40D-5C758FC4BB44}" WorkUnitID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="London Hit" ID="{6D56357D-C628-4422-A40D-5C758FC4BB44}" ShortID="397308402">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="London Hit" ID="{5BB63A34-7DAA-44C7-B081-389DE4DBE0CB}">
+							<Language>SFX</Language>
+							<AudioFile>London Hit.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="50796671"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="London Hit" ID="{5BB63A34-7DAA-44C7-B081-389DE4DBE0CB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
