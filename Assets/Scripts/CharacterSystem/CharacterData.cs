@@ -12,7 +12,10 @@ namespace CreatorKitCode
     /// </summary>
     public class CharacterData : HighlightableObject
     {
+        [Header("Audio")]
         public AK.Wwise.Event AFootstep;
+
+        [Header("Other")]
 
         public string CharacterName;
 

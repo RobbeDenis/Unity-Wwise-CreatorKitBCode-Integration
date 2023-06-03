@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 5549394745342254538}
   - component: {fileID: 5549394745342254541}
   - component: {fileID: 5549394745342254537}
+  - component: {fileID: 4715312618111174933}
   - component: {fileID: 5549394745342254542}
   - component: {fileID: 5549394745342254543}
   m_Layer: 13
@@ -97,6 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 10
   WeaponLocator: {fileID: 8136415202365550156}
+  textureValues: []
 --- !u!114 &5549394745342254537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,6 +126,19 @@ MonoBehaviour:
       elementalProtection: 00000000000000000000000000000000
       elementalBoosts: 00000000000000000000000000000000
   StartingWeapon: {fileID: 11400000, guid: 7f1a957562a85434e80c93859ff367a3, type: 2}
+--- !u!114 &4715312618111174933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549394745342254548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe034c020e322b4fbf4f3eb1038518b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SoundMap: {fileID: 11400000, guid: c7244569c78e9ed4cb2b9c198275f594, type: 2}
 --- !u!195 &5549394745342254542
 NavMeshAgent:
   m_ObjectHideFlags: 0

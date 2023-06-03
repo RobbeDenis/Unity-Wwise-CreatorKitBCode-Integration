@@ -14,6 +14,8 @@ namespace CreatorKitCodeInternal {
         AnimationControllerDispatcher.IAttackFrameReceiver,
         AnimationControllerDispatcher.IFootstepFrameReceiver
     {
+        private TerrainSurfaceCaster m_SurfaceCaster;
+
         public static CharacterControl Instance { get; protected set; }
     
         public float Speed = 10.0f;
@@ -70,6 +72,8 @@ namespace CreatorKitCodeInternal {
         {
             Instance = this;
             m_MainCamera = Camera.main;
+
+            m_SurfaceCaster = GetComponent<TerrainSurfaceCaster>();
         }
 
         // Start is called before the first frame update
@@ -433,41 +437,8 @@ namespace CreatorKitCodeInternal {
         public float[] textureValues;
         public void FootstepFrame(int foot)
         {
-            Vector3 pos = transform.position;
-
+            Debug.Log(m_SurfaceCaster.GetSurface());
             m_CharacterData.AFootstep.Post(gameObject);
-
-            Ray ray = new Ray(pos, Vector3.down);
-            if (Physics.Raycast(ray, out RaycastHit hitInfo, 100))
-            {
-                TerrainCollider terrain = hitInfo.collider.GetComponentInParent<TerrainCollider>();
-                if(terrain != null)
-                {
-                    TerrainData data = terrain.terrainData;
-
-                    Vector3 terrainPosition = pos - terrain.transform.position;
-                    Vector3 mapPosition = new Vector3(terrainPosition.x / data.size.x, 0, terrainPosition.z / data.size.z);
-                    int x = (int)(mapPosition.x * data.alphamapWidth);
-                    int z = (int)(mapPosition.z * data.alphamapHeight);
-
-                    float[,,] map = data.GetAlphamaps(x, z, 1, 1);
-                    float highestWeight = float.MinValue;
-                    TerrainLayer layer = null;
-
-                    for (int i = 0; i < data.alphamapLayers; ++i)
-                    {
-                        float weight = map[0, 0, i];
-                        if (weight > highestWeight)
-                        {
-                            highestWeight = weight;
-                            layer = data.terrainLayers[i];
-                        }
-                    }
-
-                    Debug.Log(layer.name);
-                }
-            }
-    
         }
     }
 }
