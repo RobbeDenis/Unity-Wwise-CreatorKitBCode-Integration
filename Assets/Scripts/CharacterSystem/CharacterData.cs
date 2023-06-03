@@ -14,6 +14,7 @@ namespace CreatorKitCode
     {
         [Header("Audio")]
         public AK.Wwise.Event AFootstep;
+        public AK.Wwise.Event AAttack;
 
         [Header("Other")]
 

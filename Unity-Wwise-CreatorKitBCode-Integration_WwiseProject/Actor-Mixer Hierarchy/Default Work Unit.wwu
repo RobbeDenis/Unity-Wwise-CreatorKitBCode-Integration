@@ -47,6 +47,7 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Sand" ID="{2E8FFFB5-FD66-47C8-B551-87D1A2F13388}" ShortID="271792965">
 									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -284,6 +285,7 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Stone" ID="{9CA0AC36-BDB0-4F47-A773-9DC96AD8D3A4}" ShortID="872269955">
 									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -446,6 +448,7 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Grass" ID="{4E9E748C-B7A0-4808-A8C8-79FE9F9CA3BE}" ShortID="311758460">
 									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -661,6 +664,7 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Wet" ID="{2B424993-5FFA-4DD6-A818-26075D15A6D7}" ShortID="220866721">
 									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
@@ -946,6 +950,122 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<RandomSequenceContainer Name="Swing" ID="{0EED0F70-4F05-4478-80E2-C8B5543D036F}" ShortID="339700384">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C3859399-D836-43D8-8762-C8833B8F2A9B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Moose_Swing-001" ID="{AEDBC736-C578-4F26-B99B-8E298DBC083E}" ShortID="89122114">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Moose_Swing-001" ID="{3E3DBA48-6883-44D0-9F1B-2F01E1605930}">
+											<Language>SFX</Language>
+											<AudioFile>Moose_Swing-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="465804299"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Moose_Swing-001" ID="{3E3DBA48-6883-44D0-9F1B-2F01E1605930}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Moose_Swing-002" ID="{CC097AB2-9D67-4B50-8011-E83E908274CB}" ShortID="58860451">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Moose_Swing-002" ID="{9E1D8457-989B-4FF7-A0D2-949C39128FEB}">
+											<Language>SFX</Language>
+											<AudioFile>Moose_Swing-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1061273514"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Moose_Swing-002" ID="{9E1D8457-989B-4FF7-A0D2-949C39128FEB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Moose_Swing-003" ID="{1DF6B3AC-EE83-4BD5-BE96-0705029177B5}" ShortID="553962094">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Moose_Swing-003" ID="{30150477-9BC7-4C9B-AFC4-F727DB735951}">
+											<Language>SFX</Language>
+											<AudioFile>Moose_Swing-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="456984998"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Moose_Swing-003" ID="{30150477-9BC7-4C9B-AFC4-F727DB735951}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Moose_Swing-004" ID="{D1F19D1F-4674-41BD-B509-79D24CA0B501}" ShortID="327854971">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Moose_Swing-004" ID="{A77B423F-7248-4423-885E-5A219A205E0E}">
+											<Language>SFX</Language>
+											<AudioFile>Moose_Swing-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="191654222"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Moose_Swing-004" ID="{A77B423F-7248-4423-885E-5A219A205E0E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

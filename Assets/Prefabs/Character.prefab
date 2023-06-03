@@ -116,6 +116,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a3e2af8f0bd4a7842bce4b1efb2c0390,
       type: 2}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 160f16d162c202e49a6efef5df1b51b5,
+      type: 2}
   CharacterName: 
   Stats:
     baseStats:

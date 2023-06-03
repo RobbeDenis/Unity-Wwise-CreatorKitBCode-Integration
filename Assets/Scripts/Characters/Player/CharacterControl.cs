@@ -403,7 +403,7 @@ namespace CreatorKitCodeInternal {
                 m_CharacterData.Attack(m_CurrentTargetCharacterData);
 
                 var attackPos = m_CurrentTargetCharacterData.transform.position + transform.up * 0.5f;
-                VFXManager.PlayVFX(VFXType.Hit, attackPos);                
+                m_CharacterData.AAttack.Post(gameObject);
             }
 
             if(m_ClearPostAttack)

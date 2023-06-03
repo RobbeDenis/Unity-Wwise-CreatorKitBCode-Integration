@@ -103,7 +103,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 12942c2e3a21d54bb2b2b7a11df39da3
     GuidInternal: 
-    m_lastTime: -8585158047533002266
+    m_lastTime: -8585157708027622116
     List:
     - name: Main
       guid: fdc16ee1104f5349b463ac75671f7343
@@ -131,8 +131,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed42838f0be0924b981f61ffb4951920
     GuidInternal: 
-    m_lastTime: -8585158047883232374
+    m_lastTime: -8585157708098639302
     List:
+    - name: play_sx_player_attack
+      guid: 661f492244d2974eaf6f98eb5d6f5cba
+      id: 3651949420
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed42838f0be0924b981f61ffb4951920
+      - ElementName: play_sx_player_attack
+        ObjectType: 3
+        guid: 661f492244d2974eaf6f98eb5d6f5cba
+      Path: Events\Default Work Unit\play_sx_player_attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: play_sx_player_footstep
       guid: fe94b920c3d5d64da0a5626bca07cc8a
       id: 2558021178
@@ -289,7 +306,7 @@ MonoBehaviour:
     m_lastTime: -8585158624237181891
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000d0000000e0000000f00000073000000740000009500000096000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000e0000000f00000073000000740000009500000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

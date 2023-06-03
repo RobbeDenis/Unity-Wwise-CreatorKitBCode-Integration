@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_sx_player_attack" ID="{22491F66-D244-4E97-AF6F-98EB5D6F5CBA}">
+					<ChildrenList>
+						<Action Name="" ID="{818BEE15-85AE-4B54-9796-14971FE21BBD}" ShortID="327349996">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Swing" ID="{0EED0F70-4F05-4478-80E2-C8B5543D036F}" WorkUnitID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
