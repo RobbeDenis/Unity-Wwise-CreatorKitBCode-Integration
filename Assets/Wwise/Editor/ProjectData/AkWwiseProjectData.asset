@@ -38,8 +38,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f5cdbaa710fe1e40abe536e4070c0d84
     GuidInternal: 
-    m_lastTime: -8585158624238183809
+    m_lastTime: -8585157798452134121
     List:
+    - name: Gameplay
+      guid: e082405f6caa674f97a17c4a5dc3fc86
+      id: 89505537
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5cdbaa710fe1e40abe536e4070c0d84
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Gameplay
+        ObjectType: 2
+        guid: e082405f6caa674f97a17c4a5dc3fc86
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -54,6 +71,26 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Outside
+      guid: 76ecda84156c26498f5912e3a1fae61f
+      id: 438105790
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5cdbaa710fe1e40abe536e4070c0d84
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Gameplay
+        ObjectType: 2
+        guid: e082405f6caa674f97a17c4a5dc3fc86
+      - ElementName: Outside
+        ObjectType: 1
+        guid: 76ecda84156c26498f5912e3a1fae61f
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay\Outside
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -153,7 +190,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 371cc47fced3614fa65dd97fc36ece2f
     GuidInternal: 
-    m_lastTime: -8585158048941367639
+    m_lastTime: -8585157971646687738
     List:
     - name: Surface
       guid: df0b9ff346203845afe21b9b66de1bda
@@ -170,6 +207,22 @@ MonoBehaviour:
         guid: df0b9ff346203845afe21b9b66de1bda
       Path: Switches\Default Work Unit\Surface
       values:
+      - name: Grass
+        guid: e5664be455cf34468cdb75b63ff2715a
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 371cc47fced3614fa65dd97fc36ece2f
+        - ElementName: Surface
+          ObjectType: 11
+          guid: df0b9ff346203845afe21b9b66de1bda
+        - ElementName: Grass
+          ObjectType: 10
+          guid: e5664be455cf34468cdb75b63ff2715a
       - name: Sand
         guid: a0b99eff409a8b48a6a0243b00c1e3a8
         id: 803837735
@@ -186,6 +239,38 @@ MonoBehaviour:
         - ElementName: Sand
           ObjectType: 10
           guid: a0b99eff409a8b48a6a0243b00c1e3a8
+      - name: Stone
+        guid: 3e8d82736027cd41ab3d00181dafa105
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 371cc47fced3614fa65dd97fc36ece2f
+        - ElementName: Surface
+          ObjectType: 11
+          guid: df0b9ff346203845afe21b9b66de1bda
+        - ElementName: Stone
+          ObjectType: 10
+          guid: 3e8d82736027cd41ab3d00181dafa105
+      - name: Wet
+        guid: ef9bfb9fa9dbf345a5129b52a6bc2a54
+        id: 1181096339
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 371cc47fced3614fa65dd97fc36ece2f
+        - ElementName: Surface
+          ObjectType: 11
+          guid: df0b9ff346203845afe21b9b66de1bda
+        - ElementName: Wet
+          ObjectType: 10
+          guid: ef9bfb9fa9dbf345a5129b52a6bc2a54
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -204,7 +289,7 @@ MonoBehaviour:
     m_lastTime: -8585158624237181891
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a00000073000000740000009500000096000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000d0000000e0000000f00000073000000740000009500000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

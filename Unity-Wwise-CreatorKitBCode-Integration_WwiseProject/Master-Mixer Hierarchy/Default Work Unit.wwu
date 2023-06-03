@@ -9,6 +9,27 @@
 							<ObjectRef Name="System" ID="{235235C1-1450-4642-B3B0-82264FC87B14}" WorkUnitID="{C4CA9D9E-51AB-4C43-B104-16B7AA715229}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Gameplay" ID="{5F4082E0-AA6C-4F67-97A1-7C4A5DC3FC86}">
+							<ReferenceList/>
+							<ChildrenList>
+								<AuxBus Name="Outside" ID="{84DAEC76-6C15-4926-8F59-12E3A1FAE61F}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Matrix Reverb (Custom)" ID="{4071CDAC-ADB2-4D01-B5A4-D5C959BDC97C}" ShortID="823646191" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<PropertyList>
+														<Property Name="HFRatio" Type="Real32" Value="0.5"/>
+														<Property Name="ReverbTime" Type="Real32" Value="0.8"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

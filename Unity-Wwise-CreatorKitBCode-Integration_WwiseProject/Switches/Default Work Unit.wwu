@@ -6,6 +6,9 @@
 				<SwitchGroup Name="Surface" ID="{F39F0BDF-2046-4538-AFE2-1B9B66DE1BDA}">
 					<ChildrenList>
 						<Switch Name="Sand" ID="{FF9EB9A0-9A40-488B-A6A0-243B00C1E3A8}"/>
+						<Switch Name="Stone" ID="{73828D3E-2760-41CD-AB3D-00181DAFA105}"/>
+						<Switch Name="Wet" ID="{9FFB9BEF-DBA9-45F3-A512-9B52A6BC2A54}"/>
+						<Switch Name="Grass" ID="{E44B66E5-CF55-4634-8CDB-75B63FF2715A}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

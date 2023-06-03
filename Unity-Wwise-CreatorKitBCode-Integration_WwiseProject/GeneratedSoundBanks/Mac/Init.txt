@@ -1,5 +1,12 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	89505537	Gameplay			\Default Work Unit\Master Audio Bus\Gameplay	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	438105790	Outside			\Default Work Unit\Master Audio Bus\Gameplay\Outside	
+
+Effect plug-ins	ID	Name	Type				Notes
+	823646191	Matrix Reverb (Custom)	Wwise Matrix Reverb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

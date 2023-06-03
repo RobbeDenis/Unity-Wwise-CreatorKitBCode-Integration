@@ -437,7 +437,9 @@ namespace CreatorKitCodeInternal {
         public float[] textureValues;
         public void FootstepFrame(int foot)
         {
-            Debug.Log(m_SurfaceCaster.GetSurface());
+            string surface = m_SurfaceCaster.GetSurface();
+            Debug.Log(surface);
+            AkSoundEngine.SetSwitch("Surface", surface, gameObject);
             m_CharacterData.AFootstep.Post(gameObject);
         }
     }

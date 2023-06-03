@@ -2409,6 +2409,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -15528,6 +15532,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -26567,6 +26575,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -33354,6 +33366,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -34604,6 +34620,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -45352,6 +45372,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -46015,6 +46039,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -49201,6 +49229,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -51874,6 +51906,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -61540,6 +61576,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -63447,6 +63487,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -66317,6 +66361,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -87368,6 +87416,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -92624,6 +92676,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5549394745342254537, guid: b74b36718b2fa8946a307381a120a835,
+        type: 3}
+      propertyPath: AFootstep.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: a3e2af8f0bd4a7842bce4b1efb2c0390,
+        type: 2}
     - target: {fileID: 5549394745342254539, guid: b74b36718b2fa8946a307381a120a835,
         type: 3}
       propertyPath: m_RootOrder

@@ -67,7 +67,7 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.60557014
+      - time: 0.6212769
         functionName: FootstepEvent
         data: 
         objectReferenceParameter: {instanceID: 0}

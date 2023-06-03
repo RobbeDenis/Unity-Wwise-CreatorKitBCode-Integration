@@ -9,77 +9,211 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{986487A9-2683-E47A-8688-3D0FE6FDB954}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1D0340E9-3858-C7D2-3AF8-BAEAC87F371F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="823646191" Name="Matrix Reverb (Custom)" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</Custom>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="89505537" Name="Gameplay"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="438105790" Name="Outside">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="823646191"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface">
 					<Switches>
 						<Switch Id="803837735" Name="Sand"/>
+						<Switch Id="1181096339" Name="Wet"/>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="4248645337" Name="Grass"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E5C17EAF-D866-058C-1D1C-02DDE359EA3F}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{161B1113-CE7D-F3DE-D8B9-146CE0AA8FF1}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
-				<File Id="73475104" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sx_plr_footsteps_carpet_05.wav</ShortName>
-					<CachePath>SFX/sx_plr_footsteps_carpet_05_10C4C929.wem</CachePath>
+				<File Id="4466876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-004.wav</ShortName>
+					<CachePath>SFX/FS_Sand-004_34BB06A8.wem</CachePath>
 				</File>
-				<File Id="103836890" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sx_plr_footsteps_carpet_04.wav</ShortName>
-					<CachePath>SFX/sx_plr_footsteps_carpet_04_10C4C929.wem</CachePath>
+				<File Id="23343790" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Wet-005.wav</ShortName>
+					<CachePath>SFX/FS_Wet-005_0C9CA08D.wem</CachePath>
 				</File>
-				<File Id="431053042" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sx_plr_footsteps_carpet_07.wav</ShortName>
-					<CachePath>SFX/sx_plr_footsteps_carpet_07_10C4C929.wem</CachePath>
+				<File Id="55240777" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-008.wav</ShortName>
+					<CachePath>SFX/FS_Sand-008_E84A9A03.wem</CachePath>
 				</File>
-				<File Id="531675390" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sx_plr_footsteps_carpet_02.wav</ShortName>
-					<CachePath>SFX/sx_plr_footsteps_carpet_02_10C4C929.wem</CachePath>
+				<File Id="73315445" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Wet-003.wav</ShortName>
+					<CachePath>SFX/FS_Wet-003_B2C52036.wem</CachePath>
 				</File>
-				<File Id="813964330" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sx_plr_footsteps_carpet_03.wav</ShortName>
-					<CachePath>SFX/sx_plr_footsteps_carpet_03_10C4C929.wem</CachePath>
+				<File Id="92762647" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Wet-008.wav</ShortName>
+					<CachePath>SFX/FS_Wet-008_CBDD2806.wem</CachePath>
 				</File>
-				<File Id="957380579" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sx_plr_footsteps_carpet_08.wav</ShortName>
-					<CachePath>SFX/sx_plr_footsteps_carpet_08_10C4C929.wem</CachePath>
+				<File Id="100259570" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Wet-004.wav</ShortName>
+					<CachePath>SFX/FS_Wet-004_3B5561FD.wem</CachePath>
 				</File>
-				<File Id="988407933" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sx_plr_footsteps_carpet_01.wav</ShortName>
-					<CachePath>SFX/sx_plr_footsteps_carpet_01_10C4C929.wem</CachePath>
+				<File Id="139696183" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Grass-005.wav</ShortName>
+					<CachePath>SFX/FS_Grass-005_A402F9CB.wem</CachePath>
 				</File>
-				<File Id="1042769854" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>sx_plr_footsteps_carpet_06.wav</ShortName>
-					<CachePath>SFX/sx_plr_footsteps_carpet_06_10C4C929.wem</CachePath>
+				<File Id="139800464" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Stone-004.wav</ShortName>
+					<CachePath>SFX/FS_Stone-004_610DB231.wem</CachePath>
+				</File>
+				<File Id="152007290" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-003.wav</ShortName>
+					<CachePath>SFX/FS_Sand-003_28D9B55D.wem</CachePath>
+				</File>
+				<File Id="252390159" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Grass-007.wav</ShortName>
+					<CachePath>SFX/FS_Grass-007_3EC4CB07.wem</CachePath>
+				</File>
+				<File Id="296880554" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Stone-001.wav</ShortName>
+					<CachePath>SFX/FS_Stone-001_795D89DF.wem</CachePath>
+				</File>
+				<File Id="328290549" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Wet-007.wav</ShortName>
+					<CachePath>SFX/FS_Wet-007_F1A99766.wem</CachePath>
+				</File>
+				<File Id="350477548" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Grass-006.wav</ShortName>
+					<CachePath>SFX/FS_Grass-006_3E7C7836.wem</CachePath>
+				</File>
+				<File Id="382409932" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Grass-001.wav</ShortName>
+					<CachePath>SFX/FS_Grass-001_FFABD2FF.wem</CachePath>
+				</File>
+				<File Id="392721566" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Wet-006.wav</ShortName>
+					<CachePath>SFX/FS_Wet-006_5F619405.wem</CachePath>
+				</File>
+				<File Id="416761670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-001.wav</ShortName>
+					<CachePath>SFX/FS_Sand-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="473524147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Wet-002.wav</ShortName>
+					<CachePath>SFX/FS_Wet-002_26E84BDF.wem</CachePath>
+				</File>
+				<File Id="492412785" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-002.wav</ShortName>
+					<CachePath>SFX/FS_Sand-002_60B6D70F.wem</CachePath>
+				</File>
+				<File Id="517134252" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Wet-001.wav</ShortName>
+					<CachePath>SFX/FS_Wet-001_5E62823A.wem</CachePath>
+				</File>
+				<File Id="619313613" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Grass-003.wav</ShortName>
+					<CachePath>SFX/FS_Grass-003_BF32D0E1.wem</CachePath>
+				</File>
+				<File Id="648720721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-005.wav</ShortName>
+					<CachePath>SFX/FS_Sand-005_0914F20F.wem</CachePath>
+				</File>
+				<File Id="742163045" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Stone-005.wav</ShortName>
+					<CachePath>SFX/FS_Stone-005_735C12FD.wem</CachePath>
+				</File>
+				<File Id="756418984" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-007.wav</ShortName>
+					<CachePath>SFX/FS_Sand-007_A68E61BE.wem</CachePath>
+				</File>
+				<File Id="757377872" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Sand-006.wav</ShortName>
+					<CachePath>SFX/FS_Sand-006_7D053C98.wem</CachePath>
+				</File>
+				<File Id="766865729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Stone-003.wav</ShortName>
+					<CachePath>SFX/FS_Stone-003_739C0663.wem</CachePath>
+				</File>
+				<File Id="778911752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Grass-004.wav</ShortName>
+					<CachePath>SFX/FS_Grass-004_DA76916F.wem</CachePath>
+				</File>
+				<File Id="868142682" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Grass-002.wav</ShortName>
+					<CachePath>SFX/FS_Grass-002_C7DA06CB.wem</CachePath>
+				</File>
+				<File Id="900838189" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Stone-002.wav</ShortName>
+					<CachePath>SFX/FS_Stone-002_B5290A71.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2558021178" Name="play_sx_player_footstep" DurationType="OneShot" DurationMin="0.43351358" DurationMax="0.61082464">
+				<Event Id="2558021178" Name="play_sx_player_footstep" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.25674078" DurationMax="0.6770314">
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
 					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="1216965916"/>
+							<MediaRefs>
+								<MediaRef Id="139800464"/>
+								<MediaRef Id="296880554"/>
+								<MediaRef Id="742163045"/>
+								<MediaRef Id="766865729"/>
+								<MediaRef Id="900838189"/>
+							</MediaRefs>
+						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="803837735" Default="true"/>
 							<MediaRefs>
-								<MediaRef Id="73475104"/>
-								<MediaRef Id="103836890"/>
-								<MediaRef Id="431053042"/>
-								<MediaRef Id="531675390"/>
-								<MediaRef Id="813964330"/>
-								<MediaRef Id="957380579"/>
-								<MediaRef Id="988407933"/>
-								<MediaRef Id="1042769854"/>
+								<MediaRef Id="4466876"/>
+								<MediaRef Id="55240777"/>
+								<MediaRef Id="152007290"/>
+								<MediaRef Id="416761670"/>
+								<MediaRef Id="492412785"/>
+								<MediaRef Id="648720721"/>
+								<MediaRef Id="756418984"/>
+								<MediaRef Id="757377872"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="139696183"/>
+								<MediaRef Id="252390159"/>
+								<MediaRef Id="350477548"/>
+								<MediaRef Id="382409932"/>
+								<MediaRef Id="619313613"/>
+								<MediaRef Id="778911752"/>
+								<MediaRef Id="868142682"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="1181096339"/>
+							<MediaRefs>
+								<MediaRef Id="23343790"/>
+								<MediaRef Id="73315445"/>
+								<MediaRef Id="92762647"/>
+								<MediaRef Id="100259570"/>
+								<MediaRef Id="328290549"/>
+								<MediaRef Id="392721566"/>
+								<MediaRef Id="473524147"/>
+								<MediaRef Id="517134252"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -89,10 +223,13 @@
 				<SwitchGroup Id="1834394558" Name="Surface">
 					<Switches>
 						<Switch Id="803837735" Name="Sand"/>
+						<Switch Id="1181096339" Name="Wet"/>
+						<Switch Id="1216965916" Name="Stone"/>
+						<Switch Id="4248645337" Name="Grass"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6C4A962B-F4EE-F5B4-422E-68A77E88B7DB}</FileHash>
+	<FileHash>{20AAC945-D3A3-8D08-23F0-8414E41C377E}</FileHash>
 </SoundBanksInfo>

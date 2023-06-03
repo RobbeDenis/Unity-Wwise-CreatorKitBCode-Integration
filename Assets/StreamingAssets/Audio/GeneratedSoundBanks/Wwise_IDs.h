@@ -24,7 +24,10 @@ namespace AK
 
             namespace SWITCH
             {
+                static const AkUniqueID GRASS = 4248645337U;
                 static const AkUniqueID SAND = 803837735U;
+                static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WET = 1181096339U;
             } // namespace SWITCH
         } // namespace SURFACE
 
@@ -38,8 +41,14 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID GAMEPLAY = 89505537U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID OUTSIDE = 438105790U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {
