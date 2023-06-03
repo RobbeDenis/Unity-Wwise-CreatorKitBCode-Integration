@@ -172,10 +172,11 @@ namespace CreatorKitCodeInternal {
             Gizmos.DrawWireSphere(transform.position, detectionRadius);
         }
 
-        public void FootstepFrame()
+        public void FootstepFrame(int i)
         {
             Vector3 pos = transform.position;
             VFXManager.PlayVFX(VFXType.StepPuff, pos); 
+            
         }
     }
 }

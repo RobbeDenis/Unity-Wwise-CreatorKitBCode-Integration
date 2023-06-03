@@ -21,24 +21,78 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="1834394558" Name="Surface">
+					<Switches>
+						<Switch Id="803837735" Name="Sand"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6B2C261E-2A6B-F1D4-72F9-FAB9B9BD48C0}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E5C17EAF-D866-058C-1D1C-02DDE359EA3F}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
-				<File Id="50796671" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>London Hit.wav</ShortName>
-					<CachePath>SFX/London Hit_10C4C929.wem</CachePath>
+				<File Id="73475104" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sx_plr_footsteps_carpet_05.wav</ShortName>
+					<CachePath>SFX/sx_plr_footsteps_carpet_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="103836890" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sx_plr_footsteps_carpet_04.wav</ShortName>
+					<CachePath>SFX/sx_plr_footsteps_carpet_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="431053042" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sx_plr_footsteps_carpet_07.wav</ShortName>
+					<CachePath>SFX/sx_plr_footsteps_carpet_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="531675390" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sx_plr_footsteps_carpet_02.wav</ShortName>
+					<CachePath>SFX/sx_plr_footsteps_carpet_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="813964330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sx_plr_footsteps_carpet_03.wav</ShortName>
+					<CachePath>SFX/sx_plr_footsteps_carpet_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="957380579" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sx_plr_footsteps_carpet_08.wav</ShortName>
+					<CachePath>SFX/sx_plr_footsteps_carpet_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="988407933" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sx_plr_footsteps_carpet_01.wav</ShortName>
+					<CachePath>SFX/sx_plr_footsteps_carpet_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1042769854" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sx_plr_footsteps_carpet_06.wav</ShortName>
+					<CachePath>SFX/sx_plr_footsteps_carpet_06_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2022161522" Name="Play_London_Hit" DurationType="OneShot" DurationMin="1.4707936" DurationMax="1.4707936">
-					<MediaRefs>
-						<MediaRef Id="50796671"/>
-					</MediaRefs>
+				<Event Id="2558021178" Name="play_sx_player_footstep" DurationType="OneShot" DurationMin="0.43351358" DurationMax="0.61082464">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="803837735" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="73475104"/>
+								<MediaRef Id="103836890"/>
+								<MediaRef Id="431053042"/>
+								<MediaRef Id="531675390"/>
+								<MediaRef Id="813964330"/>
+								<MediaRef Id="957380579"/>
+								<MediaRef Id="988407933"/>
+								<MediaRef Id="1042769854"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="1834394558" Name="Surface">
+					<Switches>
+						<Switch Id="803837735" Name="Sand"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B807094F-5BE1-C1B3-E28F-34424C6E88EF}</FileHash>
+	<FileHash>{6C4A962B-F4EE-F5B4-422E-68A77E88B7DB}</FileHash>
 </SoundBanksInfo>

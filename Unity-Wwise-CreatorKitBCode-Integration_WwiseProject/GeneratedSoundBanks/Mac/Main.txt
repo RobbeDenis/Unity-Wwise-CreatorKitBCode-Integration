@@ -1,6 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2022161522	Play_London_Hit			\Default Work Unit\Play_London_Hit	
+	2558021178	play_sx_player_footstep			\Default Work Unit\play_sx_player_footstep	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1834394558	Surface			\Default Work Unit\Surface	
+
+Switch	ID	Name	Switch Group			Notes
+	803837735	Sand	Surface			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	50796671	London Hit	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\London Hit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\London Hit		259544
+	73475104	sx_plr_footsteps_carpet_05	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\sx_plr_footsteps_carpet_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\sx_plr_footsteps_carpet_05		49768
+	103836890	sx_plr_footsteps_carpet_04	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\sx_plr_footsteps_carpet_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\sx_plr_footsteps_carpet_04		48970
+	431053042	sx_plr_footsteps_carpet_07	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\sx_plr_footsteps_carpet_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\sx_plr_footsteps_carpet_07		55444
+	531675390	sx_plr_footsteps_carpet_02	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\sx_plr_footsteps_carpet_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\sx_plr_footsteps_carpet_02		44524
+	813964330	sx_plr_footsteps_carpet_03	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\sx_plr_footsteps_carpet_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\sx_plr_footsteps_carpet_03		51244
+	957380579	sx_plr_footsteps_carpet_08	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\sx_plr_footsteps_carpet_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\sx_plr_footsteps_carpet_08		48986
+	988407933	sx_plr_footsteps_carpet_01	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\sx_plr_footsteps_carpet_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\sx_plr_footsteps_carpet_01		44188
+	1042769854	sx_plr_footsteps_carpet_06	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\sx_plr_footsteps_carpet_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\sx_plr_footsteps_carpet_06		46970
 

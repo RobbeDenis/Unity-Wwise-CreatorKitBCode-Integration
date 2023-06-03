@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_London_Hit" ID="{5FBE4DA6-3EB3-4F10-A3BC-2915AC630C33}">
+				<Event Name="play_sx_player_footstep" ID="{20B994FE-D5C3-4DD6-A0A5-626BCA07CC8A}">
 					<ChildrenList>
-						<Action Name="" ID="{BC4FBE77-96A2-4814-AF12-F34D005CEEC3}" ShortID="1036499041">
+						<Action Name="" ID="{2A379E79-6143-4B36-927C-1F248E5AB872}" ShortID="54426108">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="London Hit" ID="{6D56357D-C628-4422-A40D-5C758FC4BB44}" WorkUnitID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}"/>
+									<ObjectRef Name="Footsteps" ID="{9C02238F-017B-4C79-BCCF-A446A701BEAF}" WorkUnitID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

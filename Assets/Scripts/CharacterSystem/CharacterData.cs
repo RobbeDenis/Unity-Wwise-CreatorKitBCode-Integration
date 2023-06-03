@@ -12,6 +12,8 @@ namespace CreatorKitCode
     /// </summary>
     public class CharacterData : HighlightableObject
     {
+        public AK.Wwise.Event AFootstep;
+
         public string CharacterName;
 
         public StatSystem Stats;

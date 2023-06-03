@@ -16,7 +16,7 @@ namespace CreatorKitCodeInternal
 
         public interface IFootstepFrameReceiver
         {
-            void FootstepFrame();
+            void FootstepFrame(int i);
         }
 
         public MonoBehaviour AttackFrameReceiver;
@@ -53,9 +53,9 @@ namespace CreatorKitCodeInternal
             m_AttackReceiver?.AttackFrame();
         }
 
-        void FootstepEvent()
+        void FootstepEvent(int i)
         {
-            m_FootstepFrameReceiver?.FootstepFrame();
+            m_FootstepFrameReceiver?.FootstepFrame(i);
         }
     }
 }

@@ -430,11 +430,11 @@ namespace CreatorKitCodeInternal {
             }
         }
 
-        public void FootstepFrame()
+        public void FootstepFrame(int i)
         {
             Vector3 pos = transform.position;
-      
-            VFXManager.PlayVFX(VFXType.StepPuff, pos);  
+
+            m_CharacterData.AFootstep.Post(gameObject);
         }
     }
 }

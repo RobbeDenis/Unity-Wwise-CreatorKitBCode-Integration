@@ -13,8 +13,22 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_LONDON_HIT = 2022161522U;
+        static const AkUniqueID PLAY_SX_PLAYER_FOOTSTEP = 2558021178U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace SURFACE
+        {
+            static const AkUniqueID GROUP = 1834394558U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID SAND = 803837735U;
+            } // namespace SWITCH
+        } // namespace SURFACE
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {
