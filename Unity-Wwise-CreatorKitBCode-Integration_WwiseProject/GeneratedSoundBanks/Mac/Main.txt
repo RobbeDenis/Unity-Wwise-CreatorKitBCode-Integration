@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1204145640	play_sx_enemy_hit			\Default Work Unit\play_sx_enemy_hit	
 	1911952769	play_sx_enemy_grunt			\Default Work Unit\play_sx_enemy_grunt	
 	2076655380	play_sx_barrel_hit			\Default Work Unit\play_sx_barrel_hit	
+	2366761924	play_sx_boss_attack			\Default Work Unit\play_sx_boss_attack	
 	2402582799	play_sx_player_hit			\Default Work Unit\play_sx_player_hit	
 	2558021178	play_sx_player_footstep			\Default Work Unit\play_sx_player_footstep	
 	3004528578	play_sx_boss_footstep			\Default Work Unit\play_sx_boss_footstep	
@@ -68,6 +69,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	778911752	FS_Grass-004	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Grass-004_DA76916F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-004		48080
 	831333651	Moose_Hit-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\Moose_Hit-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Hit\Moose_Hit-001		123576
 	868142682	FS_Grass-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Grass-002_C7DA06CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-002		60004
+	872374728	Boss_Attack	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\Boss_Attack_D01131D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Boss_Attack		585664
 	900838189	FS_Stone-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Stone-002_B5290A71.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-002		74676
 	977873460	Enemy_Hit-003	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\Enemy_Hit-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Hit\Enemy_Hit-003		140772
 	979474490	Pickup	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\Pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Item\Pickup		111820

@@ -1768,6 +1768,13 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Boss" ID="{51724D18-72C4-4B4A-A629-85E4054F0EBC}" ShortID="196427285">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<ObjectRef Name="General" ID="{D8FF8712-B868-4B27-8751-F5EEB9A08949}" WorkUnitID="{A680EC59-BB60-484D-8134-436C400EEFE6}"/>
@@ -1893,6 +1900,47 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Boss_Death" ID="{944587FE-88BC-4389-BE00-9A3EF368083E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss_Attack" ID="{4DCD7179-5B51-4F76-A1EC-5B2228F406CB}" ShortID="354971073">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{09F09573-3E43-48C2-8CC3-FE968D7AD97F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="80"/>
+													<Property Name="Min" Type="Real64" Value="-80"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_Attack" ID="{CAB95787-456C-4BF5-9589-C9255EAD75E2}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.179125403247719"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Boss_Attack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="872374728"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_Attack" ID="{CAB95787-456C-4BF5-9589-C9255EAD75E2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

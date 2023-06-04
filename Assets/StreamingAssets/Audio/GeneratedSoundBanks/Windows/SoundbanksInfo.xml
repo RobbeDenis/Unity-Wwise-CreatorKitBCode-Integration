@@ -45,7 +45,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A41F278F-5542-9936-0825-431C16EA0DA9}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{61514EA2-C962-FCCF-9202-D90CAC8B0B64}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -233,6 +233,10 @@
 					<ShortName>FS_Grass-002.wav</ShortName>
 					<CachePath>SFX/FS_Grass-002_C7DA06CB.wem</CachePath>
 				</File>
+				<File Id="872374728" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss_Attack.wav</ShortName>
+					<CachePath>SFX/Boss_Attack_D01131D8.wem</CachePath>
+				</File>
 				<File Id="900838189" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-002.wav</ShortName>
 					<CachePath>SFX/FS_Stone-002_B5290A71.wem</CachePath>
@@ -274,6 +278,14 @@
 				<Event Id="2076655380" Name="play_sx_barrel_hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="1.6533333" DurationMax="1.6533333">
 					<MediaRefs>
 						<MediaRef Id="116500385"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2366761924" Name="play_sx_boss_attack" MaxAttenuation="30" DurationType="OneShot" DurationMin="3.1696317" DurationMax="3.4765313">
+					<MediaRefs>
+						<MediaRef Id="872374728"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="438105790" Name="Outside"/>
@@ -443,5 +455,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{57158C01-A992-10F8-FA60-7DF9AC394FAB}</FileHash>
+	<FileHash>{CC6D3059-F938-26DD-F89C-07A854693E89}</FileHash>
 </SoundBanksInfo>

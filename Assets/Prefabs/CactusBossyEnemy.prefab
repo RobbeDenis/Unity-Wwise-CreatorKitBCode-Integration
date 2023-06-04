@@ -109,7 +109,8 @@ MonoBehaviour:
   AAttack:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: bec817e52e5b6654c8d7ae1da737459f,
+      type: 2}
   AHit:
     idInternal: 0
     valueGuidInternal: 

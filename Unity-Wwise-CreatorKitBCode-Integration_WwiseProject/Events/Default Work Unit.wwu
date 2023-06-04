@@ -135,6 +135,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_sx_boss_attack" ID="{0AFD6120-2723-4B2F-9D7D-A730FC19A29D}">
+					<ChildrenList>
+						<Action Name="" ID="{9FFE6DE5-0FDF-490A-A428-65BE4606F7BF}" ShortID="102185686">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss_Attack" ID="{4DCD7179-5B51-4F76-A1EC-5B2228F406CB}" WorkUnitID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
