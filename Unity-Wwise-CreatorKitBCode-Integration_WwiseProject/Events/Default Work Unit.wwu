@@ -157,6 +157,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_sx_ambience" ID="{07E72BDF-5177-459F-8E72-EA223F1D0A48}">
+					<ChildrenList>
+						<Action Name="" ID="{0558A467-7BED-456E-8F09-DEBC60D5AE5A}" ShortID="749386125">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sx_amb_close" ID="{C4CADBC0-77B3-4BBA-8F77-0DF58B99542D}" WorkUnitID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

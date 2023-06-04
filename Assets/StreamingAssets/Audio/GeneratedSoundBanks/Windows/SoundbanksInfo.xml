@@ -45,7 +45,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{21FFB13F-AC71-EF46-B5AF-764E0B57B88E}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C9FB8570-023C-D754-9863-BB55CD5686A6}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -241,6 +241,10 @@
 					<ShortName>Boss_Attack.wav</ShortName>
 					<CachePath>SFX/Boss_Attack_D01131D8.wem</CachePath>
 				</File>
+				<File Id="888730296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sx_amb_close.wav</ShortName>
+					<CachePath>SFX/sx_amb_close_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="900838189" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-002.wav</ShortName>
 					<CachePath>SFX/FS_Stone-002_B5290A71.wem</CachePath>
@@ -279,6 +283,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2921826070" Name="play_sx_ambience" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="888730296"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2076655380" Name="play_sx_barrel_hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="1.6533333" DurationMax="1.6533333">
 					<MediaRefs>
 						<MediaRef Id="116500385"/>
@@ -467,5 +476,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{794675F5-1049-DF3A-7958-434867A68DA0}</FileHash>
+	<FileHash>{6B6CD8BC-388B-F923-9809-FB4F808C18FE}</FileHash>
 </SoundBanksInfo>

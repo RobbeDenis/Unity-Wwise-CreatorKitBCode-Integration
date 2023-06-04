@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_SX_AMBIENCE = 2921826070U;
         static const AkUniqueID PLAY_SX_BARREL_HIT = 2076655380U;
         static const AkUniqueID PLAY_SX_BOSS_ATTACK = 2366761924U;
         static const AkUniqueID PLAY_SX_BOSS_DEATH = 875007526U;

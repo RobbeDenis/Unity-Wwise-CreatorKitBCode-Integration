@@ -131,8 +131,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed42838f0be0924b981f61ffb4951920
     GuidInternal: 
-    m_lastTime: -8585156935310726957
+    m_lastTime: -8585156930289140674
     List:
+    - name: play_sx_ambience
+      guid: df2be70777519f458e72ea223f1d0a48
+      id: 2921826070
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed42838f0be0924b981f61ffb4951920
+      - ElementName: play_sx_ambience
+        ObjectType: 3
+        guid: df2be70777519f458e72ea223f1d0a48
+      Path: Events\Default Work Unit\play_sx_ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: play_sx_barrel_hit
       guid: 6b88abe878bf0847862db50f2ae9c6b3
       id: 2076655380
