@@ -117,6 +117,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2d5b8c47884c976479ccc436ad0bab6b,
       type: 2}
+  ADeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8680f5bbb1aa393488cdd0307029748b,
+      type: 2}
   CharacterName: Cactus Nails
   Stats:
     baseStats:

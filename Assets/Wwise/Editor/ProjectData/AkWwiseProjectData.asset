@@ -103,7 +103,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 12942c2e3a21d54bb2b2b7a11df39da3
     GuidInternal: 
-    m_lastTime: -8585157090712746456
+    m_lastTime: -8585157044247906865
     List:
     - name: Main
       guid: fdc16ee1104f5349b463ac75671f7343
@@ -131,7 +131,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed42838f0be0924b981f61ffb4951920
     GuidInternal: 
-    m_lastTime: -8585157090864165275
+    m_lastTime: -8585157044408392554
     List:
     - name: play_sx_enemy_attack
       guid: be20b57d8e47e04ebcdad553e8bb3d6b
@@ -147,6 +147,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: be20b57d8e47e04ebcdad553e8bb3d6b
       Path: Events\Default Work Unit\play_sx_enemy_attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_sx_enemy_death
+      guid: 0d6939f9eaf1174cab1c26119dcba422
+      id: 1635945
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed42838f0be0924b981f61ffb4951920
+      - ElementName: play_sx_enemy_death
+        ObjectType: 3
+        guid: 0d6939f9eaf1174cab1c26119dcba422
+      Path: Events\Default Work Unit\play_sx_enemy_death
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

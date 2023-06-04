@@ -45,7 +45,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8EB4605B-A226-55A0-EBE6-85AEF50B04E6}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{79CDD24E-EC85-0921-CDC0-F522828DAC68}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -173,6 +173,10 @@
 					<ShortName>FS_Wet-001.wav</ShortName>
 					<CachePath>SFX/FS_Wet-001_5E62823A.wem</CachePath>
 				</File>
+				<File Id="520721114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Death-001.wav</ShortName>
+					<CachePath>SFX/Enemy_Death-001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="557923558" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Grunt-004.wav</ShortName>
 					<CachePath>SFX/Enemy_Grunt-004_10C4C929.wem</CachePath>
@@ -184,6 +188,10 @@
 				<File Id="648720721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-005.wav</ShortName>
 					<CachePath>SFX/FS_Sand-005_0914F20F.wem</CachePath>
+				</File>
+				<File Id="689852179" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Death-002.wav</ShortName>
+					<CachePath>SFX/Enemy_Death-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="742163045" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-005.wav</ShortName>
@@ -233,6 +241,10 @@
 					<ShortName>Moose_Swing-002.wav</ShortName>
 					<CachePath>SFX/Moose_Swing-002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1062108047" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Death-003.wav</ShortName>
+					<CachePath>SFX/Enemy_Death-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1063096968" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Grunt-002.wav</ShortName>
 					<CachePath>SFX/Enemy_Grunt-002_10C4C929.wem</CachePath>
@@ -244,6 +256,16 @@
 						<MediaRef Id="317658627"/>
 						<MediaRef Id="355557419"/>
 						<MediaRef Id="498299335"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1635945" Name="play_sx_enemy_death" MaxAttenuation="30" DurationType="OneShot" DurationMin="1.4760318" DurationMax="1.5604988">
+					<MediaRefs>
+						<MediaRef Id="520721114"/>
+						<MediaRef Id="689852179"/>
+						<MediaRef Id="1062108047"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="438105790" Name="Outside"/>
@@ -368,5 +390,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{274B97E2-57C4-3314-CDA5-501E5A9FEFEC}</FileHash>
+	<FileHash>{D779A03B-D761-9E43-40F0-5815BC339DCF}</FileHash>
 </SoundBanksInfo>

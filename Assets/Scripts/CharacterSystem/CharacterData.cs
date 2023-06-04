@@ -16,6 +16,7 @@ namespace CreatorKitCode
         public AK.Wwise.Event AFootstep;
         public AK.Wwise.Event AAttack;
         public AK.Wwise.Event AHit;
+        public AK.Wwise.Event ADeath;
 
         [Header("Other")]
 
@@ -113,6 +114,9 @@ namespace CreatorKitCode
         /// </summary>
         public void Death()
         {
+            if (ADeath != null)
+                ADeath.Post(gameObject);
+
             Stats.Death();
         }
 
