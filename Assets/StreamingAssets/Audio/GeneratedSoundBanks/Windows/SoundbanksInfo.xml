@@ -45,45 +45,53 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{98908E37-D305-880C-17AB-8AC099869BBD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DB42BDE3-7685-7F3E-731E-E4D7E735CEE1}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="4466876" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-004.wav</ShortName>
-					<CachePath>SFX/FS_Sand-004_DE2F2973.wem</CachePath>
+					<CachePath>SFX/FS_Sand-004_34BB06A8.wem</CachePath>
 				</File>
 				<File Id="23343790" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Wet-005.wav</ShortName>
-					<CachePath>SFX/FS_Wet-005_2FFEA2D4.wem</CachePath>
+					<CachePath>SFX/FS_Wet-005_0C9CA08D.wem</CachePath>
+				</File>
+				<File Id="26935710" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_FS-001.wav</ShortName>
+					<CachePath>SFX/Enemy_FS-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="55240777" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-008.wav</ShortName>
-					<CachePath>SFX/FS_Sand-008_2199229A.wem</CachePath>
+					<CachePath>SFX/FS_Sand-008_E84A9A03.wem</CachePath>
 				</File>
 				<File Id="73315445" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Wet-003.wav</ShortName>
-					<CachePath>SFX/FS_Wet-003_42199BC9.wem</CachePath>
+					<CachePath>SFX/FS_Wet-003_B2C52036.wem</CachePath>
 				</File>
 				<File Id="92762647" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Wet-008.wav</ShortName>
-					<CachePath>SFX/FS_Wet-008_78CE1704.wem</CachePath>
+					<CachePath>SFX/FS_Wet-008_CBDD2806.wem</CachePath>
 				</File>
 				<File Id="100259570" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Wet-004.wav</ShortName>
-					<CachePath>SFX/FS_Wet-004_3FF22639.wem</CachePath>
+					<CachePath>SFX/FS_Wet-004_3B5561FD.wem</CachePath>
+				</File>
+				<File Id="100877511" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_FS-002.wav</ShortName>
+					<CachePath>SFX/Enemy_FS-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="139696183" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-005.wav</ShortName>
-					<CachePath>SFX/FS_Grass-005_7B8C7C72.wem</CachePath>
+					<CachePath>SFX/FS_Grass-005_A402F9CB.wem</CachePath>
 				</File>
 				<File Id="139800464" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-004.wav</ShortName>
-					<CachePath>SFX/FS_Stone-004_60445759.wem</CachePath>
+					<CachePath>SFX/FS_Stone-004_610DB231.wem</CachePath>
 				</File>
 				<File Id="152007290" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-003.wav</ShortName>
-					<CachePath>SFX/FS_Sand-003_02EC8865.wem</CachePath>
+					<CachePath>SFX/FS_Sand-003_28D9B55D.wem</CachePath>
 				</File>
 				<File Id="191654222" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moose_Swing-004.wav</ShortName>
@@ -91,11 +99,11 @@
 				</File>
 				<File Id="252390159" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-007.wav</ShortName>
-					<CachePath>SFX/FS_Grass-007_38906CC8.wem</CachePath>
+					<CachePath>SFX/FS_Grass-007_3EC4CB07.wem</CachePath>
 				</File>
 				<File Id="296880554" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-001.wav</ShortName>
-					<CachePath>SFX/FS_Stone-001_7B4CC81E.wem</CachePath>
+					<CachePath>SFX/FS_Stone-001_795D89DF.wem</CachePath>
 				</File>
 				<File Id="324145133" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moose_Hit-002.wav</ShortName>
@@ -103,19 +111,23 @@
 				</File>
 				<File Id="328290549" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Wet-007.wav</ShortName>
-					<CachePath>SFX/FS_Wet-007_DB627112.wem</CachePath>
+					<CachePath>SFX/FS_Wet-007_F1A99766.wem</CachePath>
 				</File>
 				<File Id="350477548" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-006.wav</ShortName>
-					<CachePath>SFX/FS_Grass-006_4F845BD7.wem</CachePath>
+					<CachePath>SFX/FS_Grass-006_3E7C7836.wem</CachePath>
+				</File>
+				<File Id="356839952" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Hit-002.wav</ShortName>
+					<CachePath>SFX/Enemy_Hit-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="382409932" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-001.wav</ShortName>
-					<CachePath>SFX/FS_Grass-001_DB2A159A.wem</CachePath>
+					<CachePath>SFX/FS_Grass-001_FFABD2FF.wem</CachePath>
 				</File>
 				<File Id="392721566" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Wet-006.wav</ShortName>
-					<CachePath>SFX/FS_Wet-006_1ACB6E0F.wem</CachePath>
+					<CachePath>SFX/FS_Wet-006_5F619405.wem</CachePath>
 				</File>
 				<File Id="416761670" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-001.wav</ShortName>
@@ -131,7 +143,11 @@
 				</File>
 				<File Id="473524147" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Wet-002.wav</ShortName>
-					<CachePath>SFX/FS_Wet-002_AB8344EA.wem</CachePath>
+					<CachePath>SFX/FS_Wet-002_26E84BDF.wem</CachePath>
+				</File>
+				<File Id="483888775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Hit-001.wav</ShortName>
+					<CachePath>SFX/Enemy_Hit-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="492412785" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-002.wav</ShortName>
@@ -139,7 +155,7 @@
 				</File>
 				<File Id="517134252" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Wet-001.wav</ShortName>
-					<CachePath>SFX/FS_Wet-001_210DB892.wem</CachePath>
+					<CachePath>SFX/FS_Wet-001_5E62823A.wem</CachePath>
 				</File>
 				<File Id="619313613" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-003.wav</ShortName>
@@ -147,27 +163,27 @@
 				</File>
 				<File Id="648720721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-005.wav</ShortName>
-					<CachePath>SFX/FS_Sand-005_60E7F124.wem</CachePath>
+					<CachePath>SFX/FS_Sand-005_0914F20F.wem</CachePath>
 				</File>
 				<File Id="742163045" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-005.wav</ShortName>
-					<CachePath>SFX/FS_Stone-005_D37BC784.wem</CachePath>
+					<CachePath>SFX/FS_Stone-005_735C12FD.wem</CachePath>
 				</File>
 				<File Id="756418984" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-007.wav</ShortName>
-					<CachePath>SFX/FS_Sand-007_E9E1F0F2.wem</CachePath>
+					<CachePath>SFX/FS_Sand-007_A68E61BE.wem</CachePath>
 				</File>
 				<File Id="757377872" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-006.wav</ShortName>
-					<CachePath>SFX/FS_Sand-006_C544C05F.wem</CachePath>
+					<CachePath>SFX/FS_Sand-006_7D053C98.wem</CachePath>
 				</File>
 				<File Id="766865729" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-003.wav</ShortName>
-					<CachePath>SFX/FS_Stone-003_12063329.wem</CachePath>
+					<CachePath>SFX/FS_Stone-003_739C0663.wem</CachePath>
 				</File>
 				<File Id="778911752" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-004.wav</ShortName>
-					<CachePath>SFX/FS_Grass-004_EE583A4C.wem</CachePath>
+					<CachePath>SFX/FS_Grass-004_DA76916F.wem</CachePath>
 				</File>
 				<File Id="831333651" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moose_Hit-001.wav</ShortName>
@@ -175,11 +191,19 @@
 				</File>
 				<File Id="868142682" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-002.wav</ShortName>
-					<CachePath>SFX/FS_Grass-002_1112925D.wem</CachePath>
+					<CachePath>SFX/FS_Grass-002_C7DA06CB.wem</CachePath>
 				</File>
 				<File Id="900838189" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-002.wav</ShortName>
-					<CachePath>SFX/FS_Stone-002_0000430E.wem</CachePath>
+					<CachePath>SFX/FS_Stone-002_B5290A71.wem</CachePath>
+				</File>
+				<File Id="977873460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Hit-003.wav</ShortName>
+					<CachePath>SFX/Enemy_Hit-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="982221995" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Hit-004.wav</ShortName>
+					<CachePath>SFX/Enemy_Hit-004_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1061273514" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moose_Swing-002.wav</ShortName>
@@ -187,6 +211,26 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1009755631" Name="play_sx_enemy_footstep" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.17937891" DurationMax="0.2558087">
+					<MediaRefs>
+						<MediaRef Id="26935710"/>
+						<MediaRef Id="100877511"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1204145640" Name="play_sx_enemy_hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.42902493" DurationMax="0.79748297">
+					<MediaRefs>
+						<MediaRef Id="356839952"/>
+						<MediaRef Id="483888775"/>
+						<MediaRef Id="977873460"/>
+						<MediaRef Id="982221995"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="3651949420" Name="play_sx_player_attack" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.9718908" DurationMax="1.1497217">
 					<MediaRefs>
 						<MediaRef Id="191654222"/>
@@ -275,5 +319,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{37960F0C-BE26-45FC-730A-9691E77BDF84}</FileHash>
+	<FileHash>{DD5A76C8-9379-37BA-AD8F-FAB2387A16EE}</FileHash>
 </SoundBanksInfo>

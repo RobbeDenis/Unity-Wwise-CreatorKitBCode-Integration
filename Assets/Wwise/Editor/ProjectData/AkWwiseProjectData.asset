@@ -103,7 +103,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 12942c2e3a21d54bb2b2b7a11df39da3
     GuidInternal: 
-    m_lastTime: -8585157690965804695
+    m_lastTime: -8585157131336176563
     List:
     - name: Main
       guid: fdc16ee1104f5349b463ac75671f7343
@@ -131,8 +131,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed42838f0be0924b981f61ffb4951920
     GuidInternal: 
-    m_lastTime: -8585157691049484746
+    m_lastTime: -8585157131469937795
     List:
+    - name: play_sx_enemy_footstep
+      guid: 31e2b8597425aa488b10c20c878ddc0e
+      id: 1009755631
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed42838f0be0924b981f61ffb4951920
+      - ElementName: play_sx_enemy_footstep
+        ObjectType: 3
+        guid: 31e2b8597425aa488b10c20c878ddc0e
+      Path: Events\Default Work Unit\play_sx_enemy_footstep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_sx_enemy_hit
+      guid: a06e44b93419e348a06e62003399e050
+      id: 1204145640
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed42838f0be0924b981f61ffb4951920
+      - ElementName: play_sx_enemy_hit
+        ObjectType: 3
+        guid: a06e44b93419e348a06e62003399e050
+      Path: Events\Default Work Unit\play_sx_enemy_hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: play_sx_player_attack
       guid: 661f492244d2974eaf6f98eb5d6f5cba
       id: 3651949420

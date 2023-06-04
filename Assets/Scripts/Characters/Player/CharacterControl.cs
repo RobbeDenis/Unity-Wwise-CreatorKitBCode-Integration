@@ -436,7 +436,7 @@ namespace CreatorKitCodeInternal {
             }
         }
         public float[] textureValues;
-        public void FootstepFrame(int foot)
+        public void FootstepFrame()
         {
             string surface = m_SurfaceCaster.GetSurface();
             Debug.Log(surface);

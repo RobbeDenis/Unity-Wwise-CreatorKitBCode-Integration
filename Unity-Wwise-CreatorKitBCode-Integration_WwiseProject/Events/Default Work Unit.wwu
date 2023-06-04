@@ -36,6 +36,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_sx_enemy_footstep" ID="{59B8E231-2574-48AA-8B10-C20C878DDC0E}">
+					<ChildrenList>
+						<Action Name="" ID="{8CD7EEFC-9BEB-4221-BD3F-E443AD88B1FF}" ShortID="462016111">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{95FE6139-96ED-4B94-B729-488A1BE9DC45}" WorkUnitID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_sx_enemy_hit" ID="{B9446EA0-1934-48E3-A06E-62003399E050}">
+					<ChildrenList>
+						<Action Name="" ID="{D77F1F3A-2CDB-48A6-8A72-3DB5D54A049A}" ShortID="1710666">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit" ID="{3FB22203-507C-4F19-B2A1-371B85E9CC56}" WorkUnitID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

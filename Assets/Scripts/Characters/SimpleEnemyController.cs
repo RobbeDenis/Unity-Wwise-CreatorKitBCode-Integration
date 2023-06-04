@@ -50,6 +50,7 @@ namespace CreatorKitCodeInternal {
         
             m_CharacterData.OnDamage += () =>
             {
+                m_CharacterData.AHit.Post(gameObject);
                 m_Animator.SetTrigger(m_HitAnimHash);
             };
         
@@ -172,11 +173,10 @@ namespace CreatorKitCodeInternal {
             Gizmos.DrawWireSphere(transform.position, detectionRadius);
         }
 
-        public void FootstepFrame(int i)
+        public void FootstepFrame()
         {
             Vector3 pos = transform.position;
-            VFXManager.PlayVFX(VFXType.StepPuff, pos); 
-            
+            m_CharacterData.AFootstep.Post(gameObject);
         }
     }
 }
