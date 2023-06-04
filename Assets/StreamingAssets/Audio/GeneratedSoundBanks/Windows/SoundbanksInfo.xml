@@ -45,7 +45,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CEA6C2E7-3CC1-8743-268C-C5626B848A6F}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{ABFE8E5F-1EFE-B429-4EB5-5FCAB6297227}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -96,6 +96,10 @@
 				<File Id="152007290" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-003.wav</ShortName>
 					<CachePath>SFX/FS_Sand-003_28D9B55D.wem</CachePath>
+				</File>
+				<File Id="181098439" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss_FS-002.wav</ShortName>
+					<CachePath>SFX/Boss_FS-002_F629A9B0.wem</CachePath>
 				</File>
 				<File Id="191654222" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moose_Swing-004.wav</ShortName>
@@ -245,6 +249,10 @@
 					<ShortName>Enemy_Grunt-001.wav</ShortName>
 					<CachePath>SFX/Enemy_Grunt-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1012013357" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss_FS-001.wav</ShortName>
+					<CachePath>SFX/Boss_FS-001_F9A84A98.wem</CachePath>
+				</File>
 				<File Id="1061273514" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moose_Swing-002.wav</ShortName>
 					<CachePath>SFX/Moose_Swing-002_10C4C929.wem</CachePath>
@@ -262,6 +270,15 @@
 				<Event Id="2076655380" Name="play_sx_barrel_hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="1.6533333" DurationMax="1.6533333">
 					<MediaRefs>
 						<MediaRef Id="116500385"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3004528578" Name="play_sx_boss_footstep" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.5874512" DurationMax="0.7536469">
+					<MediaRefs>
+						<MediaRef Id="181098439"/>
+						<MediaRef Id="1012013357"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="438105790" Name="Outside"/>
@@ -414,5 +431,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2BA3B07E-810D-0AC3-9640-621CB0C1DF6E}</FileHash>
+	<FileHash>{42BB11AB-C87D-4937-6E05-6F2968D716E1}</FileHash>
 </SoundBanksInfo>

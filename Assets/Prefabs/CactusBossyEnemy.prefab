@@ -30,6 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 20.715477, y: -0.59, z: 12.48468}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7115517772539934473}
   m_Father: {fileID: 0}
@@ -82,6 +83,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6d32986edb697438a2746b08746dd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AGrunt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   Speed: 1
   detectionRadius: 15
 --- !u!114 &5667712714323555573
@@ -96,6 +101,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c45ba4cd943b6c745bb32ca76b631cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 00dc34cbab635434698d83d5af8bf30b,
+      type: 2}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2d5b8c47884c976479ccc436ad0bab6b,
+      type: 2}
+  ADeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Cactus Bossy
   Stats:
     baseStats:
@@ -106,24 +129,6 @@ MonoBehaviour:
       elementalProtection: 00000000000000000000000000000000
       elementalBoosts: 00000000000000000000000000000000
   StartingWeapon: {fileID: 11400000, guid: 52b81e917921cad46997064d7acebe12, type: 2}
-  HitClip:
-  - {fileID: 8300000, guid: 52bbf808b3d93fb4f861009f0d06498b, type: 3}
-  - {fileID: 8300000, guid: a2b0c466fe3cda84da5a4a1f58ae2f07, type: 3}
-  - {fileID: 8300000, guid: a8594e4675d2b1049a71204ba41705d8, type: 3}
---- !u!114 &7104680573333993254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6117080637132129562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa3d267ff6fabdc4e8b9a091ba04c8df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AttackFrameReceiver: {fileID: 5667712714323555574}
-  FootstepFrameReceiver: {fileID: 5667712714323555574}
 --- !u!1001 &2865927052972858387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -219,6 +224,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2865927052972858387}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7104680573333993254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6117080637132129562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3d267ff6fabdc4e8b9a091ba04c8df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackFrameReceiver: {fileID: 5667712714323555574}
+  FootstepFrameReceiver: {fileID: 5667712714323555574}
 --- !u!4 &7115517772539934473 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 51ed1a96caabdfb43a94013d75c97f28,
