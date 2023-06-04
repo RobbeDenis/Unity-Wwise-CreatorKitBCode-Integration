@@ -103,7 +103,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 12942c2e3a21d54bb2b2b7a11df39da3
     GuidInternal: 
-    m_lastTime: -8585157131336176563
+    m_lastTime: -8585157090712746456
     List:
     - name: Main
       guid: fdc16ee1104f5349b463ac75671f7343
@@ -131,7 +131,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed42838f0be0924b981f61ffb4951920
     GuidInternal: 
-    m_lastTime: -8585157100975527897
+    m_lastTime: -8585157090864165275
     List:
     - name: play_sx_enemy_attack
       guid: be20b57d8e47e04ebcdad553e8bb3d6b
@@ -164,6 +164,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 31e2b8597425aa488b10c20c878ddc0e
       Path: Events\Default Work Unit\play_sx_enemy_footstep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_sx_enemy_grunt
+      guid: 80dfea6a50140347854d7598cd9450e3
+      id: 1911952769
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed42838f0be0924b981f61ffb4951920
+      - ElementName: play_sx_enemy_grunt
+        ObjectType: 3
+        guid: 80dfea6a50140347854d7598cd9450e3
+      Path: Events\Default Work Unit\play_sx_enemy_grunt
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -374,7 +391,7 @@ MonoBehaviour:
     m_lastTime: -8585158624237181891
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000e0000000f000000600000006100000073000000740000009500000096000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000e0000000f000000130000001400000015000000600000006100000073000000740000009500000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

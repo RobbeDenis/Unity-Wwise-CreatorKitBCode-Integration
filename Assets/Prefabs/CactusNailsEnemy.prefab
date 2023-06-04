@@ -83,6 +83,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6d32986edb697438a2746b08746dd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_AGrunt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 277f820f5f777904c80b8ea9b4d8659b,
+      type: 2}
   Speed: 6
   detectionRadius: 15
 --- !u!114 &5667712714323555573

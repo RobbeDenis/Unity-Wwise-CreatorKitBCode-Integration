@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32dfeddc878bfc04cb400551b64283fa, type: 3}
+  m_Name: 9FFB9BEF-DBA9-45F3-A512-9B52A6BC2A54
+  m_EditorClassIdentifier: 
+  objectName: Wet
+  id: 1181096339
+  guid: 9FFB9BEF-DBA9-45F3-A512-9B52A6BC2A54
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: acec9630d146fde4e851b7d6ea446efa,
+    type: 2}

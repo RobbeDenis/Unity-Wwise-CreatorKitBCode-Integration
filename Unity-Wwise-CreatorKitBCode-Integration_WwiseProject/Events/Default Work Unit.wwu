@@ -69,6 +69,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_sx_enemy_grunt" ID="{6AEADF80-1450-4703-854D-7598CD9450E3}">
+					<ChildrenList>
+						<Action Name="" ID="{46DD7EA3-C626-43F9-B704-2F5CAECD77D9}" ShortID="1051404512">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Grunt" ID="{E4C3DBB1-991B-4521-B8D6-5ED5E3E684F9}" WorkUnitID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

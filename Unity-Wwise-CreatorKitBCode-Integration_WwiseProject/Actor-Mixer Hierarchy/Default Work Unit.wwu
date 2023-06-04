@@ -1265,6 +1265,9 @@
 							</Playlist>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Hit" ID="{3FB22203-507C-4F19-B2A1-371B85E9CC56}" ShortID="560437986">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
@@ -1365,6 +1368,9 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Attack" ID="{606DCCE4-DFC8-47AB-9DFA-DD0010180746}" ShortID="67579512">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
@@ -1445,6 +1451,109 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Enemy_Attack-003" ID="{5F66C4F3-399E-44DD-9353-86F088E185F7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Grunt" ID="{E4C3DBB1-991B-4521-B8D6-5ED5E3E684F9}" ShortID="678385757">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Enemy_Grunt-001" ID="{35FB8F2A-B103-4D6E-85D7-CC10ADFEE200}" ShortID="374649513">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Grunt-001" ID="{C8F0165E-157A-4583-AD0B-37C4E660AA08}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Grunt-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="993055920"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Grunt-001" ID="{C8F0165E-157A-4583-AD0B-37C4E660AA08}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy_Grunt-002" ID="{A22B91BE-7D9C-46DF-97E7-D3DEB53F3E1E}" ShortID="257998047">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Grunt-002" ID="{051DFD83-187E-41C4-8579-B83251AF02FA}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Grunt-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1063096968"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Grunt-002" ID="{051DFD83-187E-41C4-8579-B83251AF02FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy_Grunt-003" ID="{ADDED6E3-EE6A-450C-9084-8C4645853E3B}" ShortID="14087194">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Grunt-003" ID="{8B585902-8A64-4631-9E49-1C21062329E8}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Grunt-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="262356303"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Grunt-003" ID="{8B585902-8A64-4631-9E49-1C21062329E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Enemy_Grunt-004" ID="{01E8BC28-568B-44D5-AEF5-4EF8A103A4ED}" ShortID="329183136">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Enemy_Grunt-004" ID="{CBB1F25B-D4DB-4924-9A4A-17B0B11C541D}">
+											<Language>SFX</Language>
+											<AudioFile>Enemy_Grunt-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="557923558"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Enemy_Grunt-004" ID="{CBB1F25B-D4DB-4924-9A4A-17B0B11C541D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

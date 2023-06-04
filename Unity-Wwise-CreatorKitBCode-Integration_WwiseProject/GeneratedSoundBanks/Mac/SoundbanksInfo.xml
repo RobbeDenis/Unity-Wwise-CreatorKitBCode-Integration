@@ -45,7 +45,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{35088A37-0CA0-4B5E-E0A9-7166CAEC8B6E}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8EB4605B-A226-55A0-EBE6-85AEF50B04E6}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -100,6 +100,10 @@
 				<File Id="252390159" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-007.wav</ShortName>
 					<CachePath>SFX/FS_Grass-007_3EC4CB07.wem</CachePath>
+				</File>
+				<File Id="262356303" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Grunt-003.wav</ShortName>
+					<CachePath>SFX/Enemy_Grunt-003_10C4C929.wem</CachePath>
 				</File>
 				<File Id="296880554" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-001.wav</ShortName>
@@ -169,6 +173,10 @@
 					<ShortName>FS_Wet-001.wav</ShortName>
 					<CachePath>SFX/FS_Wet-001_5E62823A.wem</CachePath>
 				</File>
+				<File Id="557923558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Grunt-004.wav</ShortName>
+					<CachePath>SFX/Enemy_Grunt-004_10C4C929.wem</CachePath>
+				</File>
 				<File Id="619313613" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-003.wav</ShortName>
 					<CachePath>SFX/FS_Grass-003_BF32D0E1.wem</CachePath>
@@ -217,9 +225,17 @@
 					<ShortName>Enemy_Hit-004.wav</ShortName>
 					<CachePath>SFX/Enemy_Hit-004_10C4C929.wem</CachePath>
 				</File>
+				<File Id="993055920" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Grunt-001.wav</ShortName>
+					<CachePath>SFX/Enemy_Grunt-001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1061273514" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moose_Swing-002.wav</ShortName>
 					<CachePath>SFX/Moose_Swing-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1063096968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Grunt-002.wav</ShortName>
+					<CachePath>SFX/Enemy_Grunt-002_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -237,6 +253,17 @@
 					<MediaRefs>
 						<MediaRef Id="26935710"/>
 						<MediaRef Id="100877511"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1911952769" Name="play_sx_enemy_grunt" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.56836736" DurationMax="0.717551">
+					<MediaRefs>
+						<MediaRef Id="262356303"/>
+						<MediaRef Id="557923558"/>
+						<MediaRef Id="993055920"/>
+						<MediaRef Id="1063096968"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="438105790" Name="Outside"/>
@@ -341,5 +368,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4527C6F9-639E-3BA4-9A4B-7B771910F0CD}</FileHash>
+	<FileHash>{FE1359F6-AABC-6008-D75D-FE36AEC2D577}</FileHash>
 </SoundBanksInfo>

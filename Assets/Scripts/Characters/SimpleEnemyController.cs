@@ -13,7 +13,11 @@ namespace CreatorKitCodeInternal {
             PURSUING,
             ATTACKING
         }
-    
+
+        [Header("Audio")]
+        public AK.Wwise.Event m_AGrunt;
+
+        [Header("Other")]
         public float Speed = 6.0f;
         public float detectionRadius = 10.0f;
 
@@ -91,7 +95,8 @@ namespace CreatorKitCodeInternal {
                 case State.IDLE:
                 {
                     if (Vector3.SqrMagnitude(playerPosition - transform.position) < detectionRadius * detectionRadius)
-                    {                       
+                    {
+                        m_AGrunt.Post(gameObject);
                         m_PursuitTimer = 4.0f;
                         m_State = State.PURSUING;
                         m_Agent.isStopped = false;
