@@ -1650,6 +1650,46 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Item" ID="{75BD205E-FCDA-4D3E-83EA-16B14199DB5F}" ShortID="747193467">
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="General" ID="{D8FF8712-B868-4B27-8751-F5EEB9A08949}" WorkUnitID="{A680EC59-BB60-484D-8134-436C400EEFE6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Outside" ID="{84DAEC76-6C15-4926-8F59-12E3A1FAE61F}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Pickup" ID="{398967CE-9AAF-466C-A442-87C5DACC745C}" ShortID="292338341">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pickup" ID="{EF4EA954-53CF-4B44-B012-11BA521D33ED}">
+									<Language>SFX</Language>
+									<AudioFile>Pickup.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="979474490"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pickup" ID="{EF4EA954-53CF-4B44-B012-11BA521D33ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

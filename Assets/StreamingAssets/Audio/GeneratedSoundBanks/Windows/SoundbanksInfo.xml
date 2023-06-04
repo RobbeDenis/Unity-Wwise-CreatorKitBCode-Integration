@@ -45,7 +45,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{79CDD24E-EC85-0921-CDC0-F522828DAC68}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C5787D07-6A72-6874-457C-6C2020F3B75F}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -229,6 +229,10 @@
 					<ShortName>Enemy_Hit-003.wav</ShortName>
 					<CachePath>SFX/Enemy_Hit-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="979474490" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pickup.wav</ShortName>
+					<CachePath>SFX/Pickup_10C4C929.wem</CachePath>
+				</File>
 				<File Id="982221995" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Hit-004.wav</ShortName>
 					<CachePath>SFX/Enemy_Hit-004_10C4C929.wem</CachePath>
@@ -297,6 +301,14 @@
 						<MediaRef Id="483888775"/>
 						<MediaRef Id="977873460"/>
 						<MediaRef Id="982221995"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="326815606" Name="play_sx_item_pickup" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.63335603" DurationMax="0.63335603">
+					<MediaRefs>
+						<MediaRef Id="979474490"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="438105790" Name="Outside"/>
@@ -390,5 +402,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D779A03B-D761-9E43-40F0-5815BC339DCF}</FileHash>
+	<FileHash>{A68A706B-3CC7-E4CB-22F7-C825ADF15737}</FileHash>
 </SoundBanksInfo>

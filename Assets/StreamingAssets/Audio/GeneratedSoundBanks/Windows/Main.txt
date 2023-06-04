@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1635945	play_sx_enemy_death			\Default Work Unit\play_sx_enemy_death	
+	326815606	play_sx_item_pickup			\Default Work Unit\play_sx_item_pickup	
 	1009755631	play_sx_enemy_footstep			\Default Work Unit\play_sx_enemy_footstep	
 	1191844565	play_sx_enemy_attack			\Default Work Unit\play_sx_enemy_attack	
 	1204145640	play_sx_enemy_hit			\Default Work Unit\play_sx_enemy_hit	
@@ -63,6 +64,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	868142682	FS_Grass-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Grass-002_C7DA06CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-002		60004
 	900838189	FS_Stone-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Stone-002_B5290A71.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-002		74676
 	977873460	Enemy_Hit-003	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Hit-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Hit\Enemy_Hit-003		140772
+	979474490	Pickup	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Item\Pickup		111820
 	982221995	Enemy_Hit-004	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Hit-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Hit\Enemy_Hit-004		75776
 	993055920	Enemy_Grunt-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Grunt-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Grunt\Enemy_Grunt-001		119152
 	1061273514	Moose_Swing-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Moose_Swing-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Swing\Moose_Swing-002		182620

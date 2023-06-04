@@ -18,6 +18,12 @@ namespace CreatorKitCode
     /// </summary>
     public class Loot : InteractableObject
     {
+        [Header("Audio")]
+        [SerializeField]
+        private AK.Wwise.Event APickup;
+
+        [Header("Other")]
+
         static float AnimationTime = 0.5f;
 
         public Item Item;
@@ -67,8 +73,11 @@ namespace CreatorKitCode
 
         public override void InteractWith(CharacterData target)
         {
-            target.Inventory.AddItem(Item);           
-        
+            target.Inventory.AddItem(Item);
+
+            if(APickup != null)
+                APickup.Post(gameObject);
+
             UISystem.Instance.InventoryWindow.Load(target);
             Destroy(gameObject);
         }

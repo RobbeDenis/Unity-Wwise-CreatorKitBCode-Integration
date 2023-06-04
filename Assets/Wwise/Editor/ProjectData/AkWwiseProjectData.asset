@@ -103,7 +103,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 12942c2e3a21d54bb2b2b7a11df39da3
     GuidInternal: 
-    m_lastTime: -8585157044247906865
+    m_lastTime: -8585157031784106459
     List:
     - name: Main
       guid: fdc16ee1104f5349b463ac75671f7343
@@ -131,7 +131,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed42838f0be0924b981f61ffb4951920
     GuidInternal: 
-    m_lastTime: -8585157044408392554
+    m_lastTime: -8585157031931934248
     List:
     - name: play_sx_enemy_attack
       guid: be20b57d8e47e04ebcdad553e8bb3d6b
@@ -215,6 +215,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: a06e44b93419e348a06e62003399e050
       Path: Events\Default Work Unit\play_sx_enemy_hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_sx_item_pickup
+      guid: 6ff005c15c40c844973e9d8a0ed2c05d
+      id: 326815606
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed42838f0be0924b981f61ffb4951920
+      - ElementName: play_sx_item_pickup
+        ObjectType: 3
+        guid: 6ff005c15c40c844973e9d8a0ed2c05d
+      Path: Events\Default Work Unit\play_sx_item_pickup
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

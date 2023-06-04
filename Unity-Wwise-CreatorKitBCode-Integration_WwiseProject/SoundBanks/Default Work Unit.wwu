@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{E16EC1FD-4F10-4953-B463-AC75671F7343}">
 					<ObjectInclusionList>
+						<ObjectRef Name="play_sx_item_pickup" ID="{C105F06F-405C-44C8-973E-9D8A0ED2C05D}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_sx_enemy_grunt" ID="{6AEADF80-1450-4703-854D-7598CD9450E3}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_sx_enemy_footstep" ID="{59B8E231-2574-48AA-8B10-C20C878DDC0E}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_sx_enemy_hit" ID="{B9446EA0-1934-48E3-A06E-62003399E050}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
