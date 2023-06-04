@@ -45,7 +45,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DB42BDE3-7685-7F3E-731E-E4D7E735CEE1}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{35088A37-0CA0-4B5E-E0A9-7166CAEC8B6E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -105,6 +105,10 @@
 					<ShortName>FS_Stone-001.wav</ShortName>
 					<CachePath>SFX/FS_Stone-001_795D89DF.wem</CachePath>
 				</File>
+				<File Id="317658627" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Attack-003.wav</ShortName>
+					<CachePath>SFX/Enemy_Attack-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="324145133" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moose_Hit-002.wav</ShortName>
 					<CachePath>SFX/Moose_Hit-002_10C4C929.wem</CachePath>
@@ -116,6 +120,10 @@
 				<File Id="350477548" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-006.wav</ShortName>
 					<CachePath>SFX/FS_Grass-006_3E7C7836.wem</CachePath>
+				</File>
+				<File Id="355557419" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Attack-001.wav</ShortName>
+					<CachePath>SFX/Enemy_Attack-001_28DA5FDC.wem</CachePath>
 				</File>
 				<File Id="356839952" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Hit-002.wav</ShortName>
@@ -152,6 +160,10 @@
 				<File Id="492412785" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-002.wav</ShortName>
 					<CachePath>SFX/FS_Sand-002_60B6D70F.wem</CachePath>
+				</File>
+				<File Id="498299335" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy_Attack-002.wav</ShortName>
+					<CachePath>SFX/Enemy_Attack-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="517134252" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Wet-001.wav</ShortName>
@@ -211,6 +223,16 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1191844565" Name="play_sx_enemy_attack" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.3907483" DurationMax="0.419161">
+					<MediaRefs>
+						<MediaRef Id="317658627"/>
+						<MediaRef Id="355557419"/>
+						<MediaRef Id="498299335"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="1009755631" Name="play_sx_enemy_footstep" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.17937891" DurationMax="0.2558087">
 					<MediaRefs>
 						<MediaRef Id="26935710"/>
@@ -319,5 +341,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C9665A76-A8D5-668D-E01F-62F4102B0810}</FileHash>
+	<FileHash>{4527C6F9-639E-3BA4-9A4B-7B771910F0CD}</FileHash>
 </SoundBanksInfo>

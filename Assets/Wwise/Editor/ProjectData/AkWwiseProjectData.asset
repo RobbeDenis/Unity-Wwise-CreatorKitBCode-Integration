@@ -131,8 +131,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed42838f0be0924b981f61ffb4951920
     GuidInternal: 
-    m_lastTime: -8585157131469937795
+    m_lastTime: -8585157100975527897
     List:
+    - name: play_sx_enemy_attack
+      guid: be20b57d8e47e04ebcdad553e8bb3d6b
+      id: 1191844565
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed42838f0be0924b981f61ffb4951920
+      - ElementName: play_sx_enemy_attack
+        ObjectType: 3
+        guid: be20b57d8e47e04ebcdad553e8bb3d6b
+      Path: Events\Default Work Unit\play_sx_enemy_attack
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: play_sx_enemy_footstep
       guid: 31e2b8597425aa488b10c20c878ddc0e
       id: 1009755631
@@ -357,7 +374,7 @@ MonoBehaviour:
     m_lastTime: -8585158624237181891
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000e0000000f00000073000000740000009500000096000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000e0000000f000000600000006100000073000000740000009500000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

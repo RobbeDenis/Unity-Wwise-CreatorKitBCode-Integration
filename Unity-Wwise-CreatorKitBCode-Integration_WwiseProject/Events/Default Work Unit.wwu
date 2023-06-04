@@ -58,6 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_sx_enemy_attack" ID="{7DB520BE-478E-4EE0-BCDA-D553E8BB3D6B}">
+					<ChildrenList>
+						<Action Name="" ID="{526E503C-F15F-49CC-B2B0-14AC8A379EC9}" ShortID="241344854">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Attack" ID="{606DCCE4-DFC8-47AB-9DFA-DD0010180746}" WorkUnitID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
