@@ -34,7 +34,8 @@ namespace CreatorKitCodeInternal
             if (m_CharacterData.Stats.CurrentHealth == 0)
             {
                 m_LootSpawner.SpawnLoot();
-            
+                m_CharacterData.AHit.Post(gameObject);
+
                 DestroyedChild.transform.SetParent(null);
                 DestroyedChild.gameObject.SetActive(true);
             

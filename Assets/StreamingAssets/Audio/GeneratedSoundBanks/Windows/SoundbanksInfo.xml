@@ -45,7 +45,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C5787D07-6A72-6874-457C-6C2020F3B75F}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CEA6C2E7-3CC1-8743-268C-C5626B848A6F}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -80,6 +80,10 @@
 				<File Id="100877511" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_FS-002.wav</ShortName>
 					<CachePath>SFX/Enemy_FS-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="116500385" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Barrel_Hit.wav</ShortName>
+					<CachePath>SFX/Barrel_Hit_10C4C929.wem</CachePath>
 				</File>
 				<File Id="139696183" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-005.wav</ShortName>
@@ -255,7 +259,15 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1191844565" Name="play_sx_enemy_attack" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.3907483" DurationMax="0.419161">
+				<Event Id="2076655380" Name="play_sx_barrel_hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="1.6533333" DurationMax="1.6533333">
+					<MediaRefs>
+						<MediaRef Id="116500385"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1191844565" Name="play_sx_enemy_attack" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.36881724" DurationMax="0.44408563">
 					<MediaRefs>
 						<MediaRef Id="317658627"/>
 						<MediaRef Id="355557419"/>
@@ -284,7 +296,7 @@
 						<AuxBusRef Id="438105790" Name="Outside"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1911952769" Name="play_sx_enemy_grunt" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.56836736" DurationMax="0.717551">
+				<Event Id="1911952769" Name="play_sx_enemy_grunt" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.5364673" DurationMax="0.7385768">
 					<MediaRefs>
 						<MediaRef Id="262356303"/>
 						<MediaRef Id="557923558"/>
@@ -402,5 +414,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A68A706B-3CC7-E4CB-22F7-C825ADF15737}</FileHash>
+	<FileHash>{2BA3B07E-810D-0AC3-9640-621CB0C1DF6E}</FileHash>
 </SoundBanksInfo>

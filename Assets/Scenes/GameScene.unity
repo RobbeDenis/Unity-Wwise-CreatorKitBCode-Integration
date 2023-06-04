@@ -2413,6 +2413,19 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -15536,6 +15549,19 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -26579,6 +26605,19 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -33370,6 +33409,19 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -34621,6 +34673,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
@@ -45376,6 +45441,19 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -46040,6 +46118,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
@@ -49233,6 +49324,19 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -51907,6 +52011,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
@@ -61580,6 +61697,19 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   CharacterName: Mr Box McBoxface
   Stats:
     baseStats:
@@ -63488,6 +63618,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
@@ -66362,6 +66505,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
@@ -87417,6 +87573,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  AHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f23824d0090778046844ca61333f2719,
+      type: 2}
+  ADeath:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}

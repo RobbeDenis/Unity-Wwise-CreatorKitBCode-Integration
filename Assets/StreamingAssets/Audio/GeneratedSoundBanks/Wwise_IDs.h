@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_SX_BARREL_HIT = 2076655380U;
         static const AkUniqueID PLAY_SX_ENEMY_ATTACK = 1191844565U;
         static const AkUniqueID PLAY_SX_ENEMY_DEATH = 1635945U;
         static const AkUniqueID PLAY_SX_ENEMY_FOOTSTEP = 1009755631U;

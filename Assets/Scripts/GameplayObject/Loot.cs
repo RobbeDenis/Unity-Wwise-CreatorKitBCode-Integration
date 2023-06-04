@@ -75,7 +75,7 @@ namespace CreatorKitCode
         {
             target.Inventory.AddItem(Item);
 
-            if(APickup != null)
+            if (APickup != null)
                 APickup.Post(gameObject);
 
             UISystem.Instance.InventoryWindow.Load(target);

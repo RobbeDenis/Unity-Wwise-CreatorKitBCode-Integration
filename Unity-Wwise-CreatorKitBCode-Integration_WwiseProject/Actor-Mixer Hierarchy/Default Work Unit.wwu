@@ -1267,6 +1267,17 @@
 						<RandomSequenceContainer Name="Hit" ID="{3FB22203-507C-4F19-B2A1-371B85E9CC56}" ShortID="560437986">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{910894A4-9D7F-46AF-AD4F-39AA382306F6}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="120"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1370,6 +1381,19 @@
 						<RandomSequenceContainer Name="Attack" ID="{606DCCE4-DFC8-47AB-9DFA-DD0010180746}" ShortID="67579512">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{16A5053E-B889-45EF-838A-DA5E52E9B02E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1458,6 +1482,19 @@
 						<RandomSequenceContainer Name="Grunt" ID="{E4C3DBB1-991B-4521-B8D6-5ED5E3E684F9}" ShortID="678385757">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2DD5A048-0A16-42D9-AE82-254E3E309F03}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1686,6 +1723,46 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Pickup" ID="{EF4EA954-53CF-4B44-B012-11BA521D33ED}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Barrel" ID="{52324998-63B0-40E4-8054-FACDA2AE96E6}" ShortID="95383794">
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="General" ID="{D8FF8712-B868-4B27-8751-F5EEB9A08949}" WorkUnitID="{A680EC59-BB60-484D-8134-436C400EEFE6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Outside" ID="{84DAEC76-6C15-4926-8F59-12E3A1FAE61F}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Barrel_Hit" ID="{92D4CF1B-33F3-4153-963E-18C0FD3617E9}" ShortID="986481331">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Barrel_Hit" ID="{DBD85B94-792D-4C23-88E0-2D4910A4C411}">
+									<Language>SFX</Language>
+									<AudioFile>Barrel_Hit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="116500385"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Barrel_Hit" ID="{DBD85B94-792D-4C23-88E0-2D4910A4C411}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1191844565	play_sx_enemy_attack			\Default Work Unit\play_sx_enemy_attack	
 	1204145640	play_sx_enemy_hit			\Default Work Unit\play_sx_enemy_hit	
 	1911952769	play_sx_enemy_grunt			\Default Work Unit\play_sx_enemy_grunt	
+	2076655380	play_sx_barrel_hit			\Default Work Unit\play_sx_barrel_hit	
 	2402582799	play_sx_player_hit			\Default Work Unit\play_sx_player_hit	
 	2558021178	play_sx_player_footstep			\Default Work Unit\play_sx_player_footstep	
 	3651949420	play_sx_player_attack			\Default Work Unit\play_sx_player_attack	
@@ -27,6 +28,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	92762647	FS_Wet-008	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Wet-008_CBDD2806.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Wet\FS_Wet-008		111528
 	100259570	FS_Wet-004	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Wet-004_3B5561FD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Wet\FS_Wet-004		95252
 	100877511	Enemy_FS-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_FS-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Footsteps\Enemy_FS-002		33620
+	116500385	Barrel_Hit	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Barrel_Hit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Barrel\Barrel_Hit		291744
 	139696183	FS_Grass-005	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Grass-005_A402F9CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-005		69316
 	139800464	FS_Stone-004	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Stone-004_610DB231.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-004		78420
 	152007290	FS_Sand-003	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Sand-003_28D9B55D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-003		86388

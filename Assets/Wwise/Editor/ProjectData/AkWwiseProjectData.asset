@@ -103,7 +103,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 12942c2e3a21d54bb2b2b7a11df39da3
     GuidInternal: 
-    m_lastTime: -8585157031784106459
+    m_lastTime: -8585157022549592122
     List:
     - name: Main
       guid: fdc16ee1104f5349b463ac75671f7343
@@ -131,8 +131,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed42838f0be0924b981f61ffb4951920
     GuidInternal: 
-    m_lastTime: -8585157031931934248
+    m_lastTime: -8585157022660760560
     List:
+    - name: play_sx_barrel_hit
+      guid: 6b88abe878bf0847862db50f2ae9c6b3
+      id: 2076655380
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed42838f0be0924b981f61ffb4951920
+      - ElementName: play_sx_barrel_hit
+        ObjectType: 3
+        guid: 6b88abe878bf0847862db50f2ae9c6b3
+      Path: Events\Default Work Unit\play_sx_barrel_hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: play_sx_enemy_attack
       guid: be20b57d8e47e04ebcdad553e8bb3d6b
       id: 1191844565
@@ -425,7 +442,7 @@ MonoBehaviour:
     m_lastTime: -8585158624237181891
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000e0000000f000000130000001400000015000000600000006100000073000000740000009500000096000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000e0000000f00000013000000140000001500000060000000610000006f0000007000000073000000740000009500000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
