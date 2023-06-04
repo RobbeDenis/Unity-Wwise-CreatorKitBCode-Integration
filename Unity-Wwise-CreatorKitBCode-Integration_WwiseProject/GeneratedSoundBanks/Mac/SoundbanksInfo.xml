@@ -45,7 +45,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{61514EA2-C962-FCCF-9202-D90CAC8B0B64}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{21FFB13F-AC71-EF46-B5AF-764E0B57B88E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -60,6 +60,10 @@
 				<File Id="26935710" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_FS-001.wav</ShortName>
 					<CachePath>SFX/Enemy_FS-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="49752177" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss_Grunt.wav</ShortName>
+					<CachePath>SFX/Boss_Grunt_10C4C929.wem</CachePath>
 				</File>
 				<File Id="55240777" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Sand-008.wav</ShortName>
@@ -308,6 +312,14 @@
 						<AuxBusRef Id="438105790" Name="Outside"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="775603758" Name="play_sx_boss_grunt" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.910839" DurationMax="0.910839">
+					<MediaRefs>
+						<MediaRef Id="49752177"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
+				</Event>
 				<Event Id="1191844565" Name="play_sx_enemy_attack" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.36881724" DurationMax="0.44408563">
 					<MediaRefs>
 						<MediaRef Id="317658627"/>
@@ -455,5 +467,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9BDDC85B-B24C-733E-84DB-A310D1B7093C}</FileHash>
+	<FileHash>{8BC7EA68-92A7-2298-F163-5B6D62752B75}</FileHash>
 </SoundBanksInfo>

@@ -18,6 +18,7 @@
 						<ObjectRef Name="play_sx_player_footstep" ID="{20B994FE-D5C3-4DD6-A0A5-626BCA07CC8A}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_sx_player_attack" ID="{22491F66-D244-4E97-AF6F-98EB5D6F5CBA}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_sx_enemy_attack" ID="{7DB520BE-478E-4EE0-BCDA-D553E8BB3D6B}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_sx_boss_grunt" ID="{26E0083D-7568-4FE8-A0C6-954B62E4B09B}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

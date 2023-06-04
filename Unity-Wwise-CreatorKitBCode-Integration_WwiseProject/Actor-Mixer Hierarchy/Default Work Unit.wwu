@@ -1943,6 +1943,28 @@
 								<ActiveSource Name="Boss_Attack" ID="{CAB95787-456C-4BF5-9589-C9255EAD75E2}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Boss_Grunt" ID="{7EE0ACD9-FE45-4772-8CAB-33946D7EBEFB}" ShortID="483106098">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_Grunt" ID="{6AF79392-7B72-4DF2-BE52-7BA8DC95916A}">
+									<Language>SFX</Language>
+									<AudioFile>Boss_Grunt.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="49752177"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_Grunt" ID="{6AF79392-7B72-4DF2-BE52-7BA8DC95916A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

@@ -146,6 +146,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_sx_boss_grunt" ID="{26E0083D-7568-4FE8-A0C6-954B62E4B09B}">
+					<ChildrenList>
+						<Action Name="" ID="{CCD81D37-E8E9-401F-AA7D-64E5B1B3CDB9}" ShortID="90091564">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss_Grunt" ID="{7EE0ACD9-FE45-4772-8CAB-33946D7EBEFB}" WorkUnitID="{00C4912C-0E1C-4375-BFF4-33D48F2D6DAD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
