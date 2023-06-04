@@ -45,7 +45,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{ABFE8E5F-1EFE-B429-4EB5-5FCAB6297227}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A41F278F-5542-9936-0825-431C16EA0DA9}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -177,6 +177,10 @@
 					<ShortName>Enemy_Attack-002.wav</ShortName>
 					<CachePath>SFX/Enemy_Attack-002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="508557415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Boss_Death.wav</ShortName>
+					<CachePath>SFX/Boss_Death_10C4C929.wem</CachePath>
+				</File>
 				<File Id="517134252" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Wet-001.wav</ShortName>
 					<CachePath>SFX/FS_Wet-001_5E62823A.wem</CachePath>
@@ -270,6 +274,14 @@
 				<Event Id="2076655380" Name="play_sx_barrel_hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="1.6533333" DurationMax="1.6533333">
 					<MediaRefs>
 						<MediaRef Id="116500385"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="875007526" Name="play_sx_boss_death" MaxAttenuation="30" DurationType="OneShot" DurationMin="3.3066666" DurationMax="3.3066666">
+					<MediaRefs>
+						<MediaRef Id="508557415"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="438105790" Name="Outside"/>
@@ -431,5 +443,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{42BB11AB-C87D-4937-6E05-6F2968D716E1}</FileHash>
+	<FileHash>{57158C01-A992-10F8-FA60-7DF9AC394FAB}</FileHash>
 </SoundBanksInfo>

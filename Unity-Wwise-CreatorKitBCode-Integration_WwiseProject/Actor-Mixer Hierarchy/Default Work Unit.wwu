@@ -1873,6 +1873,28 @@
 								<ItemRef Name="Boss_FS-002" ID="{B2E19DA5-E35A-4E8A-9F66-F6FB4E27FF7B}"/>
 							</Playlist>
 						</RandomSequenceContainer>
+						<Sound Name="Boss_Death" ID="{65A7B9E8-3580-4960-8723-AE3E621661AC}" ShortID="984560624">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Boss_Death" ID="{944587FE-88BC-4389-BE00-9A3EF368083E}">
+									<Language>SFX</Language>
+									<AudioFile>Boss_Death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="508557415"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Boss_Death" ID="{944587FE-88BC-4389-BE00-9A3EF368083E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

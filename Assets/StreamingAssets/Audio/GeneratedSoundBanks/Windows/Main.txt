@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1635945	play_sx_enemy_death			\Default Work Unit\play_sx_enemy_death	
 	326815606	play_sx_item_pickup			\Default Work Unit\play_sx_item_pickup	
+	875007526	play_sx_boss_death			\Default Work Unit\play_sx_boss_death	
 	1009755631	play_sx_enemy_footstep			\Default Work Unit\play_sx_enemy_footstep	
 	1191844565	play_sx_enemy_attack			\Default Work Unit\play_sx_enemy_attack	
 	1204145640	play_sx_enemy_hit			\Default Work Unit\play_sx_enemy_hit	
@@ -53,6 +54,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	483888775	Enemy_Hit-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Hit-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Hit\Enemy_Hit-001		118516
 	492412785	FS_Sand-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Sand-002_60B6D70F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-002		87568
 	498299335	Enemy_Attack-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Attack-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Attack\Enemy_Attack-002		74036
+	508557415	Boss_Death	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Boss_Death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Boss_Death		583392
 	517134252	FS_Wet-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Wet-001_5E62823A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Wet\FS_Wet-001		94784
 	520721114	Enemy_Death-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Death-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Death\Enemy_Death-001		198728
 	557923558	Enemy_Grunt-004	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Grunt-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Grunt\Enemy_Grunt-004		100356
