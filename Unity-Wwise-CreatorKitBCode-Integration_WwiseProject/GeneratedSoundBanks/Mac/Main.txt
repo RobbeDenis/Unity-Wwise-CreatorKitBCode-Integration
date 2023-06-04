@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	2402582799	play_sx_player_hit			\Default Work Unit\play_sx_player_hit	
 	2558021178	play_sx_player_footstep			\Default Work Unit\play_sx_player_footstep	
 	3651949420	play_sx_player_attack			\Default Work Unit\play_sx_player_attack	
 
@@ -24,6 +25,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	191654222	Moose_Swing-004	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\Moose_Swing-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Swing\Moose_Swing-004		181732
 	252390159	FS_Grass-007	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Grass-007_38906CC8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-007		62824
 	296880554	FS_Stone-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Stone-001_7B4CC81E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-001		63136
+	324145133	Moose_Hit-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\Moose_Hit-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Hit\Moose_Hit-002		53608
 	328290549	FS_Wet-007	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Wet-007_DB627112.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Wet\FS_Wet-007		85932
 	350477548	FS_Grass-006	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Grass-006_4F845BD7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-006		60984
 	382409932	FS_Grass-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Grass-001_DB2A159A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-001		49720
@@ -41,6 +43,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	757377872	FS_Sand-006	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Sand-006_C544C05F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-006		90776
 	766865729	FS_Stone-003	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Stone-003_12063329.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-003		71788
 	778911752	FS_Grass-004	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Grass-004_EE583A4C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-004		48080
+	831333651	Moose_Hit-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\Moose_Hit-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Hit\Moose_Hit-001		123576
 	868142682	FS_Grass-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Grass-002_1112925D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-002		60004
 	900838189	FS_Stone-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\FS_Stone-002_0000430E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-002		74676
 	1061273514	Moose_Swing-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Mac\SFX\Moose_Swing-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Swing\Moose_Swing-002		182620

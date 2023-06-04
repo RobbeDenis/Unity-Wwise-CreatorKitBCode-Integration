@@ -128,6 +128,7 @@ namespace CreatorKitCodeInternal {
     
             m_CharacterData.OnDamage += () =>
             {
+                m_CharacterData.AHit.Post(gameObject);
                 m_Animator.SetTrigger(m_HitParamID);
             };
         }

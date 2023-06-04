@@ -103,7 +103,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 12942c2e3a21d54bb2b2b7a11df39da3
     GuidInternal: 
-    m_lastTime: -8585157708027622116
+    m_lastTime: -8585157690965804695
     List:
     - name: Main
       guid: fdc16ee1104f5349b463ac75671f7343
@@ -131,7 +131,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed42838f0be0924b981f61ffb4951920
     GuidInternal: 
-    m_lastTime: -8585157708098639302
+    m_lastTime: -8585157691049484746
     List:
     - name: play_sx_player_attack
       guid: 661f492244d2974eaf6f98eb5d6f5cba
@@ -164,6 +164,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: fe94b920c3d5d64da0a5626bca07cc8a
       Path: Events\Default Work Unit\play_sx_player_footstep
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: play_sx_player_hit
+      guid: 2f7f010c97af434a9bcc52380a9eda96
+      id: 2402582799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed42838f0be0924b981f61ffb4951920
+      - ElementName: play_sx_player_hit
+        ObjectType: 3
+        guid: 2f7f010c97af434a9bcc52380a9eda96
+      Path: Events\Default Work Unit\play_sx_player_hit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

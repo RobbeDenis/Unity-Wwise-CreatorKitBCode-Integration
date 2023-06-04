@@ -45,7 +45,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{67575502-9CB3-F663-F86E-DF8420F2A7FB}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{98908E37-D305-880C-17AB-8AC099869BBD}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -96,6 +96,10 @@
 				<File Id="296880554" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-001.wav</ShortName>
 					<CachePath>SFX/FS_Stone-001_7B4CC81E.wem</CachePath>
+				</File>
+				<File Id="324145133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Moose_Hit-002.wav</ShortName>
+					<CachePath>SFX/Moose_Hit-002_10C4C929.wem</CachePath>
 				</File>
 				<File Id="328290549" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Wet-007.wav</ShortName>
@@ -164,6 +168,10 @@
 				<File Id="778911752" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-004.wav</ShortName>
 					<CachePath>SFX/FS_Grass-004_EE583A4C.wem</CachePath>
+				</File>
+				<File Id="831333651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Moose_Hit-001.wav</ShortName>
+					<CachePath>SFX/Moose_Hit-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="868142682" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Grass-002.wav</ShortName>
@@ -245,6 +253,15 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2402582799" Name="play_sx_player_hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.26256573" DurationMax="0.7331059">
+					<MediaRefs>
+						<MediaRef Id="324145133"/>
+						<MediaRef Id="831333651"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="438105790" Name="Outside"/>
+					</AuxBusRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface">
@@ -258,5 +275,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{727219A2-FFAB-2330-8B78-989F7453A2F3}</FileHash>
+	<FileHash>{37960F0C-BE26-45FC-730A-9691E77BDF84}</FileHash>
 </SoundBanksInfo>
