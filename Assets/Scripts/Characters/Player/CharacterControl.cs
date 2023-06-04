@@ -8,12 +8,18 @@ using UnityEngine.AI;
 using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 using static UnityEditor.ShaderGraph.Internal.KeywordDependentCollection;
+using static UnityEngine.Rendering.DebugUI;
 
 namespace CreatorKitCodeInternal {
     public class CharacterControl : MonoBehaviour, 
         AnimationControllerDispatcher.IAttackFrameReceiver,
         AnimationControllerDispatcher.IFootstepFrameReceiver
     {
+        [Header("Audio")]
+        [SerializeField]
+        private MusicRTPC m_HealthRTPC;
+
+        [Header("Other")]
         private TerrainSurfaceCaster m_SurfaceCaster;
 
         public static CharacterControl Instance { get; protected set; }
@@ -130,6 +136,7 @@ namespace CreatorKitCodeInternal {
             {
                 m_CharacterData.AHit.Post(gameObject);
                 m_Animator.SetTrigger(m_HitParamID);
+                m_HealthRTPC.SetRTPC(100f * ((float)m_CharacterData.Stats.CurrentHealth / m_CharacterData.Stats.baseStats.health));
             };
         }
 
@@ -162,8 +169,9 @@ namespace CreatorKitCodeInternal {
                 m_IsKO = true;
                 m_KOTimer = 0.0f;
             
-                Data.Death();          
-            
+                Data.Death();
+                m_HealthRTPC.SetRTPC(100f);
+
                 return;
             }
         

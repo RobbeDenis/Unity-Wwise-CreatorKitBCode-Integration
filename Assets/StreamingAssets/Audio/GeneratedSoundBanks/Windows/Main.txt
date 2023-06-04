@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	326815606	play_sx_item_pickup			\Default Work Unit\play_sx_item_pickup	
 	775603758	play_sx_boss_grunt			\Default Work Unit\play_sx_boss_grunt	
 	875007526	play_sx_boss_death			\Default Work Unit\play_sx_boss_death	
+	1006587970	play_mx_battle			\Default Work Unit\play_mx_battle	
 	1009755631	play_sx_enemy_footstep			\Default Work Unit\play_sx_enemy_footstep	
 	1191844565	play_sx_enemy_attack			\Default Work Unit\play_sx_enemy_attack	
 	1204145640	play_sx_enemy_hit			\Default Work Unit\play_sx_enemy_hit	
@@ -24,6 +25,9 @@ Switch	ID	Name	Switch Group			Notes
 	1216965916	Stone	Surface			
 	4248645337	Grass	Surface			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3677180323	Health			\Default Work Unit\Health	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	4466876	FS_Sand-004	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Sand-004_34BB06A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-004		93756
 	23343790	FS_Wet-005	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Wet-005_0C9CA08D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Wet\FS_Wet-005		88856
@@ -38,10 +42,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	139696183	FS_Grass-005	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Grass-005_A402F9CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-005		69316
 	139800464	FS_Stone-004	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Stone-004_610DB231.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-004		78420
 	152007290	FS_Sand-003	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Sand-003_28D9B55D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Sand\FS_Sand-003		86388
-	181098439	Boss_FS-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Boss_FS-002_F629A9B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Footsteps\Boss_FS-002		109884
+	181098439	Boss_FS-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Boss_FS-002_D502B9D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Footsteps\Boss_FS-002		109884
 	191654222	Moose_Swing-004	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Moose_Swing-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Swing\Moose_Swing-004		181732
 	252390159	FS_Grass-007	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Grass-007_3EC4CB07.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-007		62824
 	262356303	Enemy_Grunt-003	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Grunt-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Grunt\Enemy_Grunt-003		126672
+	269137490	UPM_PWLP87_9_Far_West_Comedy_Instrumental_Cosma_1896749	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\UPM_PWLP87_9_Far_West_Comedy_Instrumental_Cosma_1896749_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\UPM_PWLP87_9_Far_West_Comedy_Instrumental_Cosma_1896749\UPM_PWLP87_9_Far_West_Comedy_Instrumental_Cosma_1896749		24394268
 	296880554	FS_Stone-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Stone-001_795D89DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-001		63136
 	317658627	Enemy_Attack-003	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Attack-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Attack\Enemy_Attack-003		69024
 	324145133	Moose_Hit-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Moose_Hit-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Hit\Moose_Hit-002		53608
@@ -72,14 +77,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	778911752	FS_Grass-004	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Grass-004_DA76916F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-004		48080
 	831333651	Moose_Hit-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Moose_Hit-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Hit\Moose_Hit-001		123576
 	868142682	FS_Grass-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Grass-002_C7DA06CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Grass\FS_Grass-002		60004
-	872374728	Boss_Attack	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Boss_Attack_D01131D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Boss_Attack		585664
+	872374728	Boss_Attack	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Boss_Attack_207D6DE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Boss_Attack		585664
 	888730296	sx_amb_close	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\sx_amb_close_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient\sx_amb_close		8782296
 	900838189	FS_Stone-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\FS_Stone-002_B5290A71.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Stone\FS_Stone-002		74676
 	977873460	Enemy_Hit-003	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Hit-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Hit\Enemy_Hit-003		140772
 	979474490	Pickup	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Item\Pickup		111820
 	982221995	Enemy_Hit-004	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Hit-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Hit\Enemy_Hit-004		75776
 	993055920	Enemy_Grunt-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Grunt-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Grunt\Enemy_Grunt-001		119152
-	1012013357	Boss_FS-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Boss_FS-001_F9A84A98.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Footsteps\Boss_FS-001		125576
+	1012013357	Boss_FS-001	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Boss_FS-001_2F83D06A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Footsteps\Boss_FS-001		125576
 	1061273514	Moose_Swing-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Moose_Swing-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Swing\Moose_Swing-002		182620
 	1062108047	Enemy_Death-003	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Death-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Death\Enemy_Death-003		213628
 	1063096968	Enemy_Grunt-002	B:\Exams_2023\Unity-Wwise-CreatorKitBCode-Integration\Unity-Wwise-CreatorKitBCode-Integration_WwiseProject\.cache\Windows\SFX\Enemy_Grunt-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemy\Grunt\Enemy_Grunt-002		114140

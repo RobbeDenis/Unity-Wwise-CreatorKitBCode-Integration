@@ -103,7 +103,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 12942c2e3a21d54bb2b2b7a11df39da3
     GuidInternal: 
-    m_lastTime: -8585156935211239319
+    m_lastTime: -8585156895381136082
     List:
     - name: Main
       guid: fdc16ee1104f5349b463ac75671f7343
@@ -131,8 +131,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: ed42838f0be0924b981f61ffb4951920
     GuidInternal: 
-    m_lastTime: -8585156930289140674
+    m_lastTime: -8585156895553590249
     List:
+    - name: play_mx_battle
+      guid: ad2958df6debae48a455171664d394da
+      id: 1006587970
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed42838f0be0924b981f61ffb4951920
+      - ElementName: play_mx_battle
+        ObjectType: 3
+        guid: ad2958df6debae48a455171664d394da
+      Path: Events\Default Work Unit\play_mx_battle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: play_sx_ambience
       guid: df2be70777519f458e72ea223f1d0a48
       id: 2921826070
@@ -400,8 +417,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 9c9dd845ca40ee41b8883afdad7a2537
     GuidInternal: 
-    m_lastTime: -8585158624237295972
-    List: []
+    m_lastTime: -8585156872005012743
+    List:
+    - name: Health
+      guid: 9e2b24de0387924093af0a9ab0a5a03b
+      id: 3677180323
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c9dd845ca40ee41b8883afdad7a2537
+      - ElementName: Health
+        ObjectType: 13
+        guid: 9e2b24de0387924093af0a9ab0a5a03b
+      Path: Game Parameters\Default Work Unit\Health
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -527,7 +558,7 @@ MonoBehaviour:
     m_lastTime: -8585158624237181891
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000e0000000f00000013000000140000001500000028000000290000003d0000003e0000004c0000004d00000060000000610000006b0000006c0000006f0000007000000073000000740000009500000096000000
+  ExpandedWaapiItemIds: 05000000060000000a0000000e0000000f00000013000000140000001500000028000000290000003d0000003e000000410000004200000043000000440000004c0000004d00000060000000610000006b0000006c0000006f0000007000000073000000740000009500000096000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

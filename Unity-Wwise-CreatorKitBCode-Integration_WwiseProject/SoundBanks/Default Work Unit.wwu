@@ -7,9 +7,11 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="play_sx_boss_footstep" ID="{A08AA8DA-8378-4475-AFD3-8DB22DB3A4B3}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_sx_item_pickup" ID="{C105F06F-405C-44C8-973E-9D8A0ED2C05D}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_sx_ambience" ID="{07E72BDF-5177-459F-8E72-EA223F1D0A48}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_sx_enemy_grunt" ID="{6AEADF80-1450-4703-854D-7598CD9450E3}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_sx_barrel_hit" ID="{E8AB886B-BF78-4708-862D-B50F2AE9C6B3}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_sx_enemy_footstep" ID="{59B8E231-2574-48AA-8B10-C20C878DDC0E}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="play_mx_battle" ID="{DF5829AD-EB6D-48AE-A455-171664D394DA}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_sx_enemy_hit" ID="{B9446EA0-1934-48E3-A06E-62003399E050}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_sx_boss_death" ID="{278DF125-D752-4961-8CE9-A2195C2A75ED}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="play_sx_player_hit" ID="{0C017F2F-AF97-4A43-9BCC-52380A9EDA96}" WorkUnitID="{8F8342ED-E00B-4B92-981F-61FFB4951920}" Origin="Manual" Filter="7"/>

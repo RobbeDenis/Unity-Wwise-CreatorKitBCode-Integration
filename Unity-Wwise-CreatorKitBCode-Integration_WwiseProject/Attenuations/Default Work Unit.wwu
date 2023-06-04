@@ -19,6 +19,12 @@
 											<XPos>0</XPos>
 											<YPos>0</YPos>
 											<Flags>5</Flags>
+											<SegmentShape>Exp1</SegmentShape>
+										</Point>
+										<Point>
+											<XPos>22.61354</XPos>
+											<YPos>-7.01156</YPos>
+											<Flags>0</Flags>
 										</Point>
 										<Point>
 											<XPos>30</XPos>

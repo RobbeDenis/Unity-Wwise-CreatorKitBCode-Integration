@@ -168,6 +168,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="play_mx_battle" ID="{DF5829AD-EB6D-48AE-A455-171664D394DA}">
+					<ChildrenList>
+						<Action Name="" ID="{58B151EB-0D10-4F77-8DEB-644DFFC0CB98}" ShortID="437125374">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{6F980894-ACD9-48FA-91E7-E935AE2C5472}" WorkUnitID="{C072CCE8-7975-4605-8BC7-DB6D5850C700}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

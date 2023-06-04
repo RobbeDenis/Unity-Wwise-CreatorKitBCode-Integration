@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_MX_BATTLE = 1006587970U;
         static const AkUniqueID PLAY_SX_AMBIENCE = 2921826070U;
         static const AkUniqueID PLAY_SX_BARREL_HIT = 2076655380U;
         static const AkUniqueID PLAY_SX_BOSS_ATTACK = 2366761924U;
@@ -46,6 +47,11 @@ namespace AK
         } // namespace SURFACE
 
     } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID HEALTH = 3677180323U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

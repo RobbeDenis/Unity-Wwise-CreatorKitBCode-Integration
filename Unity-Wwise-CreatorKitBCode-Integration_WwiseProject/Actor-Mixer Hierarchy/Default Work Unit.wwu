@@ -26,7 +26,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-5</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -966,6 +966,11 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1069,6 +1074,11 @@
 						<RandomSequenceContainer Name="Hit" ID="{9A33F7B3-5595-471D-B527-0CDD08C45DE0}" ShortID="440943943">
 							<PropertyList>
 								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1604,7 +1614,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1688,6 +1698,13 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Item" ID="{75BD205E-FCDA-4D3E-83EA-16B14199DB5F}" ShortID="747193467">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<ObjectRef Name="General" ID="{D8FF8712-B868-4B27-8751-F5EEB9A08949}" WorkUnitID="{A680EC59-BB60-484D-8134-436C400EEFE6}"/>
@@ -1771,7 +1788,7 @@
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2005,36 +2022,6 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="sx_amb_close" ID="{05D77A0F-1DCE-4469-865B-1AC77BA7AEEC}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="sx_amb_far" ID="{34E2622A-5A55-4FFF-A90A-97E52F2D9D23}" ShortID="904365331">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="IsZeroLatency" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sx_amb_far" ID="{72823D20-F291-415D-9CC4-9A3EF6B7D6B9}">
-									<Language>SFX</Language>
-									<AudioFile>sx_amb_far.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="199591337"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="sx_amb_far" ID="{72823D20-F291-415D-9CC4-9A3EF6B7D6B9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

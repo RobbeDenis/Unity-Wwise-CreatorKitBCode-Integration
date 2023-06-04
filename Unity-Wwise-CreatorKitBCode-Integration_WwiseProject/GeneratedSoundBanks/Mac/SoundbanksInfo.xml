@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{3137FC24-81AB-55B0-104C-4F9BA01A753E}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{12BEB065-0673-1E6C-3A34-65DC3DFA70AC}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -34,6 +34,9 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="3677180323" Name="Health"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface">
 					<Switches>
@@ -45,7 +48,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C9FB8570-023C-D754-9863-BB55CD5686A6}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{FBB12CF1-7B8E-64A5-88B0-8915B766A518}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -103,7 +106,7 @@
 				</File>
 				<File Id="181098439" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Boss_FS-002.wav</ShortName>
-					<CachePath>SFX/Boss_FS-002_F629A9B0.wem</CachePath>
+					<CachePath>SFX/Boss_FS-002_D502B9D9.wem</CachePath>
 				</File>
 				<File Id="191654222" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moose_Swing-004.wav</ShortName>
@@ -116,6 +119,10 @@
 				<File Id="262356303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy_Grunt-003.wav</ShortName>
 					<CachePath>SFX/Enemy_Grunt-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="269137490" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UPM_PWLP87_9_Far_West_Comedy_Instrumental_Cosma_1896749.wav</ShortName>
+					<CachePath>SFX/UPM_PWLP87_9_Far_West_Comedy_Instrumental_Cosma_1896749_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="296880554" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Stone-001.wav</ShortName>
@@ -239,7 +246,7 @@
 				</File>
 				<File Id="872374728" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Boss_Attack.wav</ShortName>
-					<CachePath>SFX/Boss_Attack_D01131D8.wem</CachePath>
+					<CachePath>SFX/Boss_Attack_207D6DE7.wem</CachePath>
 				</File>
 				<File Id="888730296" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sx_amb_close.wav</ShortName>
@@ -267,7 +274,7 @@
 				</File>
 				<File Id="1012013357" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Boss_FS-001.wav</ShortName>
-					<CachePath>SFX/Boss_FS-001_F9A84A98.wem</CachePath>
+					<CachePath>SFX/Boss_FS-001_2F83D06A.wem</CachePath>
 				</File>
 				<File Id="1061273514" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Moose_Swing-002.wav</ShortName>
@@ -283,6 +290,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1006587970" Name="play_mx_battle" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="269137490"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2921826070" Name="play_sx_ambience" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="888730296"/>
@@ -464,6 +476,9 @@
 					</AuxBusRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3677180323" Name="Health"/>
+			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface">
 					<Switches>
@@ -476,5 +491,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AE2B525E-A05B-BC16-C832-F0F096029AEC}</FileHash>
+	<FileHash>{E8150257-508D-7ED5-18BD-7B555207C2EE}</FileHash>
 </SoundBanksInfo>
