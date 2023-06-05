@@ -38,8 +38,48 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: f5cdbaa710fe1e40abe536e4070c0d84
     GuidInternal: 
-    m_lastTime: -8585157798452134121
+    m_lastTime: -8585156838053856244
     List:
+    - name: Buildings
+      guid: 82c9a2bf2a28d047b07c8bf936a49c82
+      id: 1213198520
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5cdbaa710fe1e40abe536e4070c0d84
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Gameplay
+        ObjectType: 2
+        guid: e082405f6caa674f97a17c4a5dc3fc86
+      - ElementName: Buildings
+        ObjectType: 1
+        guid: 82c9a2bf2a28d047b07c8bf936a49c82
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay\Buildings
+    - name: Cave
+      guid: ea692f7f74343249a797e993175e3811
+      id: 4122393694
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5cdbaa710fe1e40abe536e4070c0d84
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Gameplay
+        ObjectType: 2
+        guid: e082405f6caa674f97a17c4a5dc3fc86
+      - ElementName: Cave
+        ObjectType: 1
+        guid: ea692f7f74343249a797e993175e3811
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay\Cave
     - name: Gameplay
       guid: e082405f6caa674f97a17c4a5dc3fc86
       id: 89505537
@@ -71,6 +111,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: 97bc54297ab4df4d8220e76f3b346024
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5cdbaa710fe1e40abe536e4070c0d84
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: 97bc54297ab4df4d8220e76f3b346024
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
     - name: Outside
       guid: 76ecda84156c26498f5912e3a1fae61f
       id: 438105790
@@ -91,6 +148,26 @@ MonoBehaviour:
         ObjectType: 1
         guid: 76ecda84156c26498f5912e3a1fae61f
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay\Outside
+    - name: Small
+      guid: 0ba52ef60faf2145b560f74798b0996d
+      id: 1846755610
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f5cdbaa710fe1e40abe536e4070c0d84
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Gameplay
+        ObjectType: 2
+        guid: e082405f6caa674f97a17c4a5dc3fc86
+      - ElementName: Small
+        ObjectType: 1
+        guid: 0ba52ef60faf2145b560f74798b0996d
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay\Small
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -445,8 +522,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: e327123a264f2548bc2dd503ad82c5c8
     GuidInternal: 
-    m_lastTime: -8585158624237950687
-    List: []
+    m_lastTime: -8585156860940517060
+    List:
+    - name: PlayerState
+      guid: 2fe7d7b08b9f184693482e4ccf1b9234
+      id: 3285234865
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e327123a264f2548bc2dd503ad82c5c8
+      - ElementName: PlayerState
+        ObjectType: 9
+        guid: 2fe7d7b08b9f184693482e4ccf1b9234
+      Path: States\Default Work Unit\PlayerState
+      values:
+      - name: Alive
+        guid: 3ed355debb3c9a46bcf24719638ffa7e
+        id: 655265632
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e327123a264f2548bc2dd503ad82c5c8
+        - ElementName: PlayerState
+          ObjectType: 9
+          guid: 2fe7d7b08b9f184693482e4ccf1b9234
+        - ElementName: Alive
+          ObjectType: 8
+          guid: 3ed355debb3c9a46bcf24719638ffa7e
+      - name: Dead
+        guid: 4be5da960a36e949b08606720c5989d7
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e327123a264f2548bc2dd503ad82c5c8
+        - ElementName: PlayerState
+          ObjectType: 9
+          guid: 2fe7d7b08b9f184693482e4ccf1b9234
+        - ElementName: Dead
+          ObjectType: 8
+          guid: 4be5da960a36e949b08606720c5989d7
+      - name: None
+        guid: 28a859154cfff34599e427f858687e21
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e327123a264f2548bc2dd503ad82c5c8
+        - ElementName: PlayerState
+          ObjectType: 9
+          guid: 2fe7d7b08b9f184693482e4ccf1b9234
+        - ElementName: None
+          ObjectType: 8
+          guid: 28a859154cfff34599e427f858687e21
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -558,7 +701,7 @@ MonoBehaviour:
     m_lastTime: -8585158624237181891
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000a0000000e0000000f00000013000000140000001500000028000000290000003d0000003e000000410000004200000043000000440000004c0000004d00000060000000610000006b0000006c0000006f0000007000000073000000740000009500000096000000
+  ExpandedWaapiItemIds: 030000000400000005000000060000000a0000000e0000000f0000001300000014000000150000002700000028000000290000003d0000003e000000410000004200000043000000440000004c0000004d00000060000000610000006b0000006c0000006f0000007000000073000000740000009500000096000000eb8d0100
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

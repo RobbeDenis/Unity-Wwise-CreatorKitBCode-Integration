@@ -9,13 +9,20 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{12BEB065-0673-1E6C-3A34-65DC3DFA70AC}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6A2861D6-B9F9-FA27-2C8D-54227EC6D7AE}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<Custom>
+					<Plugin Id="412684284" Name="Delay (Custom)" LibName="Wwise Delay" LibId="6946819"/>
+					<Plugin Id="549751432" Name="Church_Small_Wood (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="612139485" Name="Delay (Custom)" LibName="Wwise Delay" LibId="6946819"/>
+					<Plugin Id="642068345" Name="Room_Medium_High_Absorbtion (Custom)" LibName="Wwise RoomVerb" LibId="7733251"/>
 					<Plugin Id="823646191" Name="Matrix Reverb (Custom)" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</Custom>
+				<ShareSets>
+					<Plugin Id="1159390747" Name="Room_Medium_Tiled" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -24,6 +31,7 @@
 			<Busses>
 				<Bus Id="89505537" Name="Gameplay"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="Music"/>
 			</Busses>
 			<AuxBusses>
 				<AuxBus Id="438105790" Name="Outside">
@@ -33,10 +41,44 @@
 						</Custom>
 					</PluginRefs>
 				</AuxBus>
+				<AuxBus Id="1213198520" Name="Buildings">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="612139485"/>
+						</Custom>
+						<ShareSets>
+							<PluginRef Id="1159390747"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="1846755610" Name="Small">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="642068345"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="4122393694" Name="Cave">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="412684284"/>
+							<PluginRef Id="549751432"/>
+						</Custom>
+					</PluginRefs>
+				</AuxBus>
 			</AuxBusses>
 			<GameParameters>
 				<GameParameter Id="3677180323" Name="Health"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3285234865" Name="PlayerState">
+					<States>
+						<State Id="655265632" Name="Alive"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="2044049779" Name="Dead"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface">
 					<Switches>
@@ -48,7 +90,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{FBB12CF1-7B8E-64A5-88B0-8915B766A518}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0F35289D-C2AA-9513-5CC3-4CE4465AD81A}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -304,42 +346,27 @@
 					<MediaRefs>
 						<MediaRef Id="116500385"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="2366761924" Name="play_sx_boss_attack" MaxAttenuation="30" DurationType="OneShot" DurationMin="3.1696317" DurationMax="3.4765313">
 					<MediaRefs>
 						<MediaRef Id="872374728"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="875007526" Name="play_sx_boss_death" MaxAttenuation="30" DurationType="OneShot" DurationMin="3.3066666" DurationMax="3.3066666">
 					<MediaRefs>
 						<MediaRef Id="508557415"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="3004528578" Name="play_sx_boss_footstep" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.5874512" DurationMax="0.7536469">
 					<MediaRefs>
 						<MediaRef Id="181098439"/>
 						<MediaRef Id="1012013357"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="775603758" Name="play_sx_boss_grunt" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.910839" DurationMax="0.910839">
 					<MediaRefs>
 						<MediaRef Id="49752177"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="1191844565" Name="play_sx_enemy_attack" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.36881724" DurationMax="0.44408563">
 					<MediaRefs>
@@ -347,9 +374,6 @@
 						<MediaRef Id="355557419"/>
 						<MediaRef Id="498299335"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="1635945" Name="play_sx_enemy_death" MaxAttenuation="30" DurationType="OneShot" DurationMin="1.4760318" DurationMax="1.5604988">
 					<MediaRefs>
@@ -357,18 +381,12 @@
 						<MediaRef Id="689852179"/>
 						<MediaRef Id="1062108047"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="1009755631" Name="play_sx_enemy_footstep" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.17937891" DurationMax="0.2558087">
 					<MediaRefs>
 						<MediaRef Id="26935710"/>
 						<MediaRef Id="100877511"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="1911952769" Name="play_sx_enemy_grunt" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.5364673" DurationMax="0.7385768">
 					<MediaRefs>
@@ -377,9 +395,6 @@
 						<MediaRef Id="993055920"/>
 						<MediaRef Id="1063096968"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="1204145640" Name="play_sx_enemy_hit" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.42902493" DurationMax="0.79748297">
 					<MediaRefs>
@@ -388,17 +403,11 @@
 						<MediaRef Id="977873460"/>
 						<MediaRef Id="982221995"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="326815606" Name="play_sx_item_pickup" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.63335603" DurationMax="0.63335603">
 					<MediaRefs>
 						<MediaRef Id="979474490"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="3651949420" Name="play_sx_player_attack" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.9718908" DurationMax="1.1497217">
 					<MediaRefs>
@@ -407,14 +416,8 @@
 						<MediaRef Id="465804299"/>
 						<MediaRef Id="1061273514"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="2558021178" Name="play_sx_player_footstep" MaxAttenuation="30" DurationType="OneShot" DurationMin="0.25674078" DurationMax="0.6770314">
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="1834394558" Id="1216965916"/>
@@ -471,9 +474,6 @@
 						<MediaRef Id="324145133"/>
 						<MediaRef Id="831333651"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="438105790" Name="Outside"/>
-					</AuxBusRefs>
 				</Event>
 			</Events>
 			<GameParameters>
@@ -491,5 +491,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E8150257-508D-7ED5-18BD-7B555207C2EE}</FileHash>
+	<FileHash>{50F32C10-D7F7-52C1-1280-0DB2F3AA7359}</FileHash>
 </SoundBanksInfo>

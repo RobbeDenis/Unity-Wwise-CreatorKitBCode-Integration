@@ -11,7 +11,6 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Gameplay" ID="{5F4082E0-AA6C-4F67-97A1-7C4A5DC3FC86}">
-							<ReferenceList/>
 							<ChildrenList>
 								<AuxBus Name="Outside" ID="{84DAEC76-6C15-4926-8F59-12E3A1FAE61F}">
 									<ReferenceList>
@@ -27,7 +26,133 @@
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
+								<AuxBus Name="Buildings" ID="{BFA2C982-282A-47D0-B07C-8BF936A49C82}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Delay (Custom)" ID="{A96A639A-387B-46D6-A47E-F1E3D5AAB76E}" ShortID="612139485" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+													<PropertyList>
+														<Property Name="DelayTime" Type="Real32" Value="0.16"/>
+														<Property Name="Feedback" Type="Real32" Value="47.5"/>
+														<Property Name="WetDryMix" Type="Real32" Value="37.5"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Medium_Tiled" ID="{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Small" ID="{F62EA50B-AF0F-4521-B560-F74798B0996D}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{E22DBBB6-7656-4B93-A28D-C003FD416889}">
+												<Effect Name="Room_Medium_High_Absorbtion (Custom)" ID="{D770B315-2776-4333-9B5F-481E0FF8E451}" ShortID="642068345" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<PropertyList>
+														<Property Name="Density" Type="Real32" Value="70"/>
+														<Property Name="Diffusion" Type="Real32" Value="46"/>
+														<Property Name="ERLevel" Type="Real32" Value="-23"/>
+														<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+														<Property Name="Filter2Freq" Type="Real32" Value="10520"/>
+														<Property Name="Filter2Gain" Type="Real32" Value="-12"/>
+														<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+														<Property Name="Filter3Gain" Type="Real32" Value="-12"/>
+														<Property Name="HFDamping" Type="Real32" Value="7"/>
+														<Property Name="Quality" Type="int32" Value="10"/>
+														<Property Name="ReverbLevel" Type="Real32" Value="-22"/>
+														<Property Name="RoomShape" Type="Real32" Value="55"/>
+														<Property Name="RoomSize" Type="Real32" Value="15"/>
+														<Property Name="StereoWidth" Type="Real32" Value="115"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Cave" ID="{7F2F69EA-3474-4932-A797-E993175E3811}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Delay (Custom)" ID="{3CF449A9-0941-4C30-BA58-1A6371BDC90A}" ShortID="412684284" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+													<PropertyList>
+														<Property Name="Feedback" Type="Real32" Value="35"/>
+														<Property Name="WetDryMix" Type="Real32" Value="34.5"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+										<Reference Name="Effect1">
+											<Custom CreatedFrom="{940CCB47-F031-4C6A-B0E6-726CAC418C02}">
+												<Effect Name="Church_Small_Wood (Custom)" ID="{CB1968DF-C95B-45DE-9439-6AD1D657DCC2}" ShortID="549751432" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<PropertyList>
+														<Property Name="DecayTime" Type="Real32" Value="1.3"/>
+														<Property Name="Density" Type="Real32" Value="27"/>
+														<Property Name="ERLevel" Type="Real32" Value="-24"/>
+														<Property Name="ERPattern" Type="int32" Value="6"/>
+														<Property Name="Filter1Freq" Type="Real32" Value="490"/>
+														<Property Name="Filter1Gain" Type="Real32" Value="-5.5"/>
+														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+														<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+														<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
+														<Property Name="Filter3Gain" Type="Real32" Value="-7"/>
+														<Property Name="HFDamping" Type="Real32" Value="3.7"/>
+														<Property Name="PreDelay" Type="Real32" Value="18"/>
+														<Property Name="Quality" Type="int32" Value="12"/>
+														<Property Name="ReverbLevel" Type="Real32" Value="-24"/>
+														<Property Name="RoomSize" Type="Real32" Value="32"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerState" ID="{B0D7E72F-9F8B-4618-9348-2E4CCF1B9234}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Alive" ID="{DE55D33E-3CBB-469A-BCF2-4719638FFA7E}"/>
+										<CustomState Name="" ID="{558CAF3B-2791-4549-87D5-44C0ECEDF5AC}" ShortID="895243809"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Dead" ID="{96DAE54B-360A-49E9-B086-06720C5989D7}"/>
+										<CustomState Name="" ID="{78ED8E29-2480-4F8C-9C68-F2C18961CB85}" ShortID="107418698">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="90"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="Music" ID="{2954BC97-B47A-4DDF-8220-E76F3B346024}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerState" ID="{B0D7E72F-9F8B-4618-9348-2E4CCF1B9234}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Alive" ID="{DE55D33E-3CBB-469A-BCF2-4719638FFA7E}"/>
+										<CustomState Name="" ID="{D95FA01E-534E-4940-A3B8-198ECCE729BB}" ShortID="229315554"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Dead" ID="{96DAE54B-360A-49E9-B086-06720C5989D7}"/>
+										<CustomState Name="" ID="{2F2E5E4D-78E8-4F8C-A34B-5B6F8C75EB2E}" ShortID="850463853">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="5"/>
+												<Property Name="Lowpass" Type="int16" Value="57"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 					</ChildrenList>
 				</Bus>

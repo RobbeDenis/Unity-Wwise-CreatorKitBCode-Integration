@@ -85,6 +85,8 @@ namespace CreatorKitCodeInternal {
         // Start is called before the first frame update
         void Start()
         {
+            AkSoundEngine.SetState("PlayerState", "Alive");
+
             QualitySettings.vSyncCount = 0;
             Application.targetFrameRate = 60;
         
@@ -171,6 +173,7 @@ namespace CreatorKitCodeInternal {
             
                 Data.Death();
                 m_HealthRTPC.SetRTPC(100f);
+                AkSoundEngine.SetState("PlayerState", "Dead");
 
                 return;
             }
@@ -267,6 +270,7 @@ namespace CreatorKitCodeInternal {
             m_Animator.SetTrigger(m_RespawnParamID);
         
             m_CharacterData.Stats.ChangeHealth(m_CharacterData.Stats.stats.health);
+            AkSoundEngine.SetState("PlayerState", "Alive");
         }
 
         void ObjectsRaycasts(Ray screenRay)

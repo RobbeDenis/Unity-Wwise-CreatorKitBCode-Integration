@@ -6,6 +6,7 @@
 				<ActorMixer Name="Player" ID="{E299C137-92F5-48EF-BD71-095015F0C17F}" ShortID="916996021">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -16,9 +17,6 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Gameplay" ID="{5F4082E0-AA6C-4F67-97A1-7C4A5DC3FC86}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Outside" ID="{84DAEC76-6C15-4926-8F59-12E3A1FAE61F}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1178,6 +1176,9 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Enemy" ID="{A696BC82-5290-4876-A0F2-FA577634F6B9}" ShortID="1060488365">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<ObjectRef Name="General" ID="{D8FF8712-B868-4B27-8751-F5EEB9A08949}" WorkUnitID="{A680EC59-BB60-484D-8134-436C400EEFE6}"/>
@@ -1186,10 +1187,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Outside" ID="{84DAEC76-6C15-4926-8F59-12E3A1FAE61F}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+							<ObjectRef Name="Gameplay" ID="{5F4082E0-AA6C-4F67-97A1-7C4A5DC3FC86}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1287,6 +1285,11 @@
 											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
@@ -1699,6 +1702,7 @@
 				</ActorMixer>
 				<ActorMixer Name="Item" ID="{75BD205E-FCDA-4D3E-83EA-16B14199DB5F}" ShortID="747193467">
 					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>3</Value>
@@ -1713,10 +1717,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Outside" ID="{84DAEC76-6C15-4926-8F59-12E3A1FAE61F}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+							<ObjectRef Name="Gameplay" ID="{5F4082E0-AA6C-4F67-97A1-7C4A5DC3FC86}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1745,6 +1746,9 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Barrel" ID="{52324998-63B0-40E4-8054-FACDA2AE96E6}" ShortID="95383794">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<ObjectRef Name="General" ID="{D8FF8712-B868-4B27-8751-F5EEB9A08949}" WorkUnitID="{A680EC59-BB60-484D-8134-436C400EEFE6}"/>
@@ -1753,10 +1757,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Outside" ID="{84DAEC76-6C15-4926-8F59-12E3A1FAE61F}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+							<ObjectRef Name="Gameplay" ID="{5F4082E0-AA6C-4F67-97A1-7C4A5DC3FC86}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1786,6 +1787,7 @@
 				</ActorMixer>
 				<ActorMixer Name="Boss" ID="{51724D18-72C4-4B4A-A629-85E4054F0EBC}" ShortID="196427285">
 					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>4</Value>
@@ -1800,10 +1802,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
-						</Reference>
-						<Reference Name="UserAuxSend0">
-							<ObjectRef Name="Outside" ID="{84DAEC76-6C15-4926-8F59-12E3A1FAE61F}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+							<ObjectRef Name="Gameplay" ID="{5F4082E0-AA6C-4F67-97A1-7C4A5DC3FC86}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1990,7 +1989,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{56006DCC-46DC-4FC1-94CE-7C808063C649}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
+							<ObjectRef Name="Gameplay" ID="{5F4082E0-AA6C-4F67-97A1-7C4A5DC3FC86}" WorkUnitID="{A7BACDF5-FE10-401E-ABE5-36E4070C0D84}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

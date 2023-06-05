@@ -31,6 +31,22 @@ namespace AK
         static const AkUniqueID PLAY_SX_PLAYER_HIT = 2402582799U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace PLAYERSTATE
+        {
+            static const AkUniqueID GROUP = 3285234865U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ALIVE = 655265632U;
+                static const AkUniqueID DEAD = 2044049779U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace PLAYERSTATE
+
+    } // namespace STATES
+
     namespace SWITCHES
     {
         namespace SURFACE
@@ -63,11 +79,15 @@ namespace AK
     {
         static const AkUniqueID GAMEPLAY = 89505537U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID BUILDINGS = 1213198520U;
+        static const AkUniqueID CAVE = 4122393694U;
         static const AkUniqueID OUTSIDE = 438105790U;
+        static const AkUniqueID SMALL = 1846755610U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

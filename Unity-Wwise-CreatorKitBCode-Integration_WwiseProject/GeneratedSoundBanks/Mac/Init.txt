@@ -1,12 +1,33 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3285234865	PlayerState			\Default Work Unit\PlayerState	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	PlayerState			
+	748895195	None	PlayerState			
+	2044049779	Dead	PlayerState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	107418698	Dead	PlayerState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Gameplay		
+	850463853	Dead	PlayerState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	89505537	Gameplay			\Default Work Unit\Master Audio Bus\Gameplay	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	438105790	Outside			\Default Work Unit\Master Audio Bus\Gameplay\Outside	
+	1213198520	Buildings			\Default Work Unit\Master Audio Bus\Gameplay\Buildings	
+	1846755610	Small			\Default Work Unit\Master Audio Bus\Gameplay\Small	
+	4122393694	Cave			\Default Work Unit\Master Audio Bus\Gameplay\Cave	
 
 Effect plug-ins	ID	Name	Type				Notes
+	412684284	Delay (Custom)	Wwise Delay			
+	549751432	Church_Small_Wood (Custom)	Wwise RoomVerb			
+	612139485	Delay (Custom)	Wwise Delay			
+	642068345	Room_Medium_High_Absorbtion (Custom)	Wwise RoomVerb			
 	823646191	Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
