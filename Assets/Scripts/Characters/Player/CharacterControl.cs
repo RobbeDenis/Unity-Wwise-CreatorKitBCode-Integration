@@ -6,9 +6,6 @@ using CreatorKitCode;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.EventSystems;
-using UnityEngine.Serialization;
-using static UnityEditor.ShaderGraph.Internal.KeywordDependentCollection;
-using static UnityEngine.Rendering.DebugUI;
 
 namespace CreatorKitCodeInternal {
     public class CharacterControl : MonoBehaviour, 
